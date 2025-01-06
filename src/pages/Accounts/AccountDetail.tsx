@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { accounts } from "./account";
-import { FaCrown, FaCar, FaStar, FaTelegramPlane, FaWhatsapp, FaFire, FaTag } from "react-icons/fa";
+import { FaCrown, FaCar, FaStar, FaWhatsapp, FaFire, FaTag, FaDiscord } from "react-icons/fa";
 import logo from '../../images/pubg-mobile.webp'
-import Accordion from "./accordion";
+import Accordion from "./accordion"
+import ReactPlayer from 'react-player';
+;
 const AccountDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const account = accounts.find(acc => acc.id === parseInt(id!));
@@ -24,7 +26,7 @@ const AccountDetails: React.FC = () => {
           PUBG Mobile
         </h1>
         <button className="bg-[#5865f2] text-white py-2 px-4 rounded-lg font-semibold">
-          Join Discord
+          <FaDiscord/>
         </button>
       </header>
 
@@ -78,6 +80,37 @@ const AccountDetails: React.FC = () => {
             </div>
           </div>
 
+          <div className="bg-[#161b22] p-6 rounded-lg shadow-md">
+          <h1 className="text-xl font-thin flex items-center gap-2">
+          <img src={logo} alt="PUBG" className="w-8 h-8" />
+          Watch Account Video
+        </h1>
+          {account.videoLink && (
+  <div className="bg-[#161b22] p-6 rounded-lg shadow-md">
+    
+    <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg mb-4">
+      <ReactPlayer
+        url={account.videoLink}
+        width="100%"
+        height="100%"
+        className="absolute top-0 left-0"
+        controls
+        playing={false}
+        light
+      />
+    </div>
+    <a
+      href={account.videoLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block border w-full hover:bg-[#000]  text-white py-2 px-4 rounded-lg text-lg font-bold text-center"
+    >
+      Watch on Telegram
+    </a>
+  </div>
+)}
+
+            </div>
           {/* Account Details */}
           <div className="bg-[#161b22] p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-bold text-[#ff5252] mb-4">Account Details</h3>

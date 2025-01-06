@@ -53,7 +53,7 @@ export interface GameAccount {
         rabayii_1, rabayii_2, rabayii_3, rabayii_4,rabayii_5,rabayii_6
       ],
       videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1762",
-      status: false,
+      status: true,
       mythicsCount: 8,
       carsCount: 8,
       gunSkinsCount: 30,

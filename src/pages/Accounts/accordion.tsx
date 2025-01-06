@@ -9,11 +9,11 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     question: "How to buy PUBG Mobile Accounts?",
-    answer: "You can purchase PUBG Mobile accounts from our website by selecting an account, adding it to your cart, and completing the payment process.",
+    answer: "You can purchase PUBG Mobile accounts from our website by selecting an account and then making your payment ",
   },
   {
     question: "How will I receive the account details?",
-    answer: "Once the payment is completed, account details will be sent to your registered email address within a few minutes.",
+    answer: "Once the payment is completed, account details will be sent to your registered email address  within a few minutes.",
   },
   {
     question: "What should I do if I encounter any issues with my account?",

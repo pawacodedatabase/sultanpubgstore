@@ -3,7 +3,7 @@ import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaSearch, FaShoppin
 
 import { Link } from "react-router-dom"; // Import Link for routing
 import logo from "../../assets/logo.png";
-import { GameAccount, accounts } from "./account";
+import {  accounts } from "./account";
 
 const Accounts: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaShoppingBag, FaStore } from 'react-icons/fa';
+import { FaShoppingBag } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import logo from '../assets/SULTAN_logo.gif';
@@ -65,33 +65,10 @@ const Header: React.FC = () => {
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <Link
-              to="/games"
+              to="/store"
               className="text-gray-700 hover:text-red-500 hover:font-bold relative"
             >
-              Games
-              {/* Underline Effect */}
-              <motion.span
-                className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
-                whileHover={{ width: '100%' }}
-                initial={{ width: 0 }}
-                animate={{ width: 0 }}
-                transition={{ duration: 0.3, ease: 'easeInOut' }}
-              />
-            </Link>
-          </motion.div>
-
-          <motion.div
-            className="relative group"
-            whileHover={{
-              scale: 1.1,
-            }}
-            transition={{ type: 'spring', stiffness: 300 }}
-          >
-            <Link
-              to="/simulator"
-              className="text-gray-700 hover:text-red-500 hover:font-bold relative"
-            >
-              Simulator
+              Store
               {/* Underline Effect */}
               <motion.span
                 className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
@@ -115,6 +92,29 @@ const Header: React.FC = () => {
               className="text-gray-700 hover:text-red-500 hover:font-bold relative"
             >
               About Us
+              {/* Underline Effect */}
+              <motion.span
+                className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
+                whileHover={{ width: '100%' }}
+                initial={{ width: 0 }}
+                animate={{ width: 0 }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
+              />
+            </Link>
+          </motion.div>
+
+          <motion.div
+            className="relative group"
+            whileHover={{
+              scale: 1.1,
+            }}
+            transition={{ type: 'spring', stiffness: 300 }}
+          >
+            <Link
+              to="/sell"
+              className="text-gray-700 hover:text-red-500 hover:font-bold relative"
+            >
+              Sell Your Account
               {/* Underline Effect */}
               <motion.span
                 className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
@@ -169,11 +169,11 @@ const Header: React.FC = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              to="/games"
+              to="/store"
               className="text-gray-700 hover:text-red-500 hover:font-bold"
               onClick={() => setMenuOpen(false)}
             >
-              Games
+              Store 
               
               <motion.div
                 className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
@@ -195,11 +195,11 @@ const Header: React.FC = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              to="/simulator"
+              to="/sell"
               className="text-gray-700 hover:text-red-500 hover:font-bold"
               onClick={() => setMenuOpen(false)}
             >
-              Simulator
+              Sell Your Account
               <motion.div
                 className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
                 initial={{ scale: 0 }}
@@ -243,11 +243,11 @@ const Header: React.FC = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              to="/faq"
+              to="/new-arrivals"
               className="text-gray-700 hover:text-red-500 hover:font-bold"
               onClick={() => setMenuOpen(false)}
             >
-              FAQ
+              Get Offer
               <motion.div
                 className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
                 initial={{ scale: 0 }}

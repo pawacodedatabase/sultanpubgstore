@@ -9,7 +9,7 @@ import banner_6 from '../images/banner_6.jpg';
 import banner_7 from '../images/banner_7.jpg';
 import banner_8 from '../images/banner_8.jpg';
 import banner_9 from '../images/banner_9.jpg';
-import {  FaArrowAltCircleLeft, FaArrowAltCircleRight, FaBell, } from 'react-icons/fa';
+import {  FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
 
 interface HeroSlide {
   image: string;
@@ -22,66 +22,66 @@ interface HeroSlide {
 const heroSlides: HeroSlide[] = [
   {
     image: banner_1,
-    heading: 'AMAZING GAME STORE',
-    text: 'Discover the latest games, consoles, and more.',
+    heading: 'Unleash the Ultimate PUBG Experience!',
+    text: 'Find premium PUBG accounts with rare skins, high ranks, and exclusive gear. Level up your game today!',
     buttonLabel: 'Shop Now',
-    buttonLink: '/shop',
+    buttonLink: '/store',
   },
   {
     image: banner_2,
-    heading: 'NEW ARRIVALS',
-    text: 'Explore our newest collection of games and accessories.',
+    heading: 'New Arrivals',
+    text: `Discover fresh PUBG accounts with unbeatable stats, top-tier skins, and more. Don't miss out!`,
     buttonLabel: 'Browse Now',
     buttonLink: '/new-arrivals',
   },
   {
     image: banner_3,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
+    heading: 'Unlock Elite PUBG Accounts Now!',
+    text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    buttonLink: '/store',
   },
   {
     image: banner_4,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
+    heading: 'Unlock Elite PUBG Accounts Now!',
+    text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    buttonLink: '/store',
   },
   {
     image: banner_5,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
-    buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    heading: 'Unleash the Ultimate PUBG Experience!',
+    text: 'Find premium PUBG accounts with rare skins, high ranks, and exclusive gear. Level up your game today!',
+    buttonLabel: 'Shop Now',
+    buttonLink: '/store',
   },
   {
     image: banner_6,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
+    heading: 'Unlock Elite PUBG Accounts Now!',
+    text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    buttonLink: '/store',
   },
   {
     image: banner_7,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
-    buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    heading: 'Unleash the Ultimate PUBG Experience!',
+    text: 'Find premium PUBG accounts with rare skins, high ranks, and exclusive gear. Level up your game today!',
+    buttonLabel: 'Shop Now',
+    buttonLink: '/store',
   },
   {
     image: banner_8,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
-    buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    heading: 'Unleash the Ultimate PUBG Experience!',
+    text: 'Find premium PUBG accounts with rare skins, high ranks, and exclusive gear. Level up your game today!',
+    buttonLabel: 'Shop Now',
+    buttonLink: '/store',
   },
   {
     image: banner_9,
-    heading: 'SALE! UP TO 50% OFF',
-    text: 'Hurry up! Limited time offer on select products.',
+    heading: 'Unlock Elite PUBG Accounts Now!',
+    text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/sale',
+    buttonLink: '/store',
   },
 ];
 

@@ -1,15 +1,17 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { accounts } from "./account";
-import { FaCrown, FaCar, FaStar, FaWhatsapp, FaFire, FaTag, FaDiscord } from "react-icons/fa";
+import { FaCrown, FaCar, FaStar, FaWhatsapp, FaFire, FaTag, FaDiscord, FaMagento, FaShoppingBasket,  FaBitcoin, FaCreditCard } from "react-icons/fa";
 import logo from '../../images/pubg-mobile.webp'
 import Accordion from "./accordion"
 import ReactPlayer from 'react-player';
+import { useNavigate } from "react-router-dom";
 ;
 const AccountDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const account = accounts.find(acc => acc.id === parseInt(id!));
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const navigate = useNavigate();
 
   if (!account) {
     return <div className="min-h-screen bg-[#1e1e2e] p-8 text-white text-center">Account not found</div>;
@@ -39,13 +41,13 @@ const AccountDetails: React.FC = () => {
           <div className="flex items-center gap-4">
            
             <div className="flex items-center gap-2">
-              <span className="bg-[#ff5252] flex text-white text-[12px] px-3 py-1">
+              <span className="bg-[#ff5252] flex text-white text-[12px] px-3 py-2 rounded-lg ">
               <FaTag/>    Resell value
               </span>
-              <span className="bg-[#ffcc00] flex  text-black text-sm px-3 py-1 rounded-lg">
+              <span className="bg-[#ffcc00] flex  text-black text-sm px-3 py-2 rounded-lg">
               <FaTag/>  3% Cashback
               </span>
-              <span className="bg-[#4caf50] flex  text-white text-sm px-3 py-1 rounded-lg">
+              <span className="bg-[#4caf50] flex  text-white text-sm px-3 py-2 rounded-lg">
               <FaTag/>  Instant Account Delivery
               </span>
             </div>
@@ -113,28 +115,45 @@ const AccountDetails: React.FC = () => {
             </div>
           {/* Account Details */}
           <div className="bg-[#161b22] p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-[#ff5252] mb-4">Account Details</h3>
+           
+
+           <div className="flex mb-4 gap-2  text-center m-auto justify-center">
+
+            <span className="text-gray-500 text-2xl"><FaMagento/></span>
+             
+            <h3 className="text-xl font-thin text-green-400  text-center ">Account Details</h3>
+
+           </div>
+          
+
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-center gap-2">
                 <FaCrown className="text-[#ffcc00]" />
-                Level: <span className="font-bold">{account.accountLevel}</span>
+                Level: <span className="font-bold text-yellow-500">{account.accountLevel}</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaStar className="text-[#ff7b7b]" />
-                Mythics: <span className="font-bold">{account.mythicsCount}+</span>
+                Mythics: <span className="font-bold text-red-500">{account.mythicsCount}+</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaStar className="text-[#4caf50]" />
-                Gun Labs: <span className="font-bold">{account.gunSkinsCount}+</span>
+                Gun Labs: <span className="font-bold text-gray-500">{account.gunSkinsCount}+</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaCar className="text-[#ff5252]" />
-                Cars: <span className="font-bold">{account.carsCount}+</span>
+                Cars: <span className="font-bold text-blue-500">{account.carsCount}+</span>
               </li>
              
             </ul>
             <div className="mt-6">
-  <h3 className="text-xl font-bold text-[#ff5252] mb-4">Account Features</h3>
+            <div className="flex mb-4 gap-2  text-center m-auto justify-center">
+
+<span className="text-gray-500 text-2xl"><FaMagento/></span>
+ 
+<h3 className="text-xl font-thin text-green-400  text-center ">Account Features</h3>
+
+</div>
+
   <table className="table-auto w-full text-left text-gray-300">
     <tbody>
       {account.accountFeatures?.map((feature, index) => (
@@ -154,7 +173,14 @@ const AccountDetails: React.FC = () => {
   </table>
 </div>
             <div className="mt-6">
-  <h3 className="text-xl font-bold text-[#ff5252] mb-4">More Features</h3>
+            <div className="flex mb-4 gap-2  text-center m-auto justify-center">
+
+<span className="text-gray-500 text-2xl"><FaMagento/></span>
+ 
+<h3 className="text-xl font-thin text-green-400  text-center ">More Features</h3>
+
+</div>
+
   <table className="table-auto w-full text-left text-gray-300">
     <tbody>
       {account.moreFeat?.map((feature, index) => (
@@ -163,7 +189,7 @@ const AccountDetails: React.FC = () => {
             <span className="flex items-center gap-3">
               {/* Icon for each feature */}
               <span className="text-[yellow]">
-                <FaStar />
+                <FaCrown />
               </span>
               {feature}
             </span>
@@ -179,19 +205,32 @@ const AccountDetails: React.FC = () => {
         {/* Right Section */}
         <div className="col-span-12 lg:col-span-4 space-y-6">
           <div className="bg-[#161b22] p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-bold text-[#ff5252] mb-4">Fast Checkout</h3>
+          <div className="flex mb-4 gap-2  text-center m-auto justify-center">
+
+<span className="text-gray-500 text-2xl"><FaShoppingBasket/></span>
+ 
+<h3 className="text-xl font-thin text-green-400  text-center ">Fast Checkout</h3>
+
+</div>
+
             <ul className="text-gray-400 text-sm space-y-3">
-              <li>✔ You'll get the account logins instantly after payment</li>
-              <li>✔ Email and password can be changed</li>
-              <li>✔ Instant delivery after payment</li>
-              <li>✔ Free warranty and support</li>
+              <li> <span className="text-green-500">✔ </span>You'll get the account logins instantly after payment</li>
+              <li> <span className="text-green-500"> ✔</span> Email and password can be changed</li>
+              <li> <span className="text-green-500"> ✔</span> Instant delivery after payment</li>
+              <li> <span className="text-green-500"> ✔</span> Free warranty and support</li>
             </ul>
             <div className="mt-6 text-center">
-              <p className="text-4xl font-semibold text-[#ff5252]">${account.price?.toFixed(2)}</p>
-              
-              <button className="mt-4 bg-[#ff5252] hover:bg-[#d64040] text-white py-3 px-6 rounded-lg text-lg font-bold transition-transform transform hover:scale-105">
-                Buy Account →
+              <p className="text-4xl font-thin text-[#ff5252]">${account.price?.toFixed(2)}</p>
+
+              <button
+                className="p-4 border-2 mt-4 rounded hover:bg-[#000] transition-transform transform hover:scale-105"
+                onClick={() => navigate(`/buy/${account.id}`)} // Navigate to the Buy Account page
+              >
+                Buy Account
               </button>
+              
+
+              <div className="flex  gap-2 justify-center mt-2 text-2xl"><FaBitcoin/> <FaCreditCard/> </div>
             </div>
           </div>
           <div className="bg-green-500 p-6 rounded-lg text-center shadow-md">

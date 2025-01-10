@@ -9,6 +9,7 @@ import NewArrivals from './pages/Accounts/NewArrivals';
 import SellYourAccount from './pages/sell/sell';
 import Confirmation from './pages/sell/confirmation';
 import Footer from './home components/footer';
+import BuyAccount from './pages/Accounts/buy';
 
 const App: React.FC = () => {
   return (
@@ -21,7 +22,7 @@ const App: React.FC = () => {
         <Route path="/new-arrivals" element={<NewArrivals />} />
         <Route path="/confirmation" element={<Confirmation/>} />
         <Route path="/account/:id" element={<AccountDetails/>} />
-        
+        <Route path="/buy/:id" element={<BuyAccount />} />
       </Routes>
       <Footer/>
     </Router>

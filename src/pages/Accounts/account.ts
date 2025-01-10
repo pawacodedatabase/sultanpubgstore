@@ -56,6 +56,29 @@ import nairamm_6 from './images/nairamm_6.jpg';
 import nairamm_7 from './images/nairamm_7.jpg';
 
 
+import policee_1 from './images/policee_1.jpg';
+import policee_2 from './images/policee_2.jpg';
+import policee_3 from './images/policee_3.jpg';
+import policee_4 from './images/policee_4.jpg';
+import policee_5 from './images/policee_5.jpg';
+
+
+import lillie_1 from './images/lillie_1.jpg';
+import lillie_2 from './images/lillie_2.jpg';
+import lillie_3 from './images/lillie_3.jpg';
+import lillie_4 from './images/lillie_4.jpg';
+import lillie_5 from './images/lillie_5.jpg';
+
+
+import jesstt_1 from './images/jesstt_1.jpg';
+import jesstt_2 from './images/jesstt_2.jpg';
+import jesstt_3 from './images/jesstt_3.jpg';
+import jesstt_4 from './images/jesstt_4.jpg';
+import jesstt_5 from './images/jesstt_5.jpg';
+import jesstt_6 from './images/jesstt_6.jpg';
+
+
+
   export const accounts: GameAccount[] = [
     {
       id: 1,
@@ -271,48 +294,108 @@ import nairamm_7 from './images/nairamm_7.jpg';
     gunSkinsCount: 10,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 6,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 7,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 8,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 6,
+    name: "654",
+    price: 160,
+    accountFeatures: [
+      "LEVEL 7 FOOL",
+  "LEVEL 5 GLACIER M4",
+  "LEVEL 5 CRYO FROST UMP",
+  "LEVEL 4 8 BIT M762",
+  "LEVEL 4 BASS SCARL",
+  "LEVEL 4 CHAMELEON BIZON",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 3 SPIRIT SENTRY UZI",
+  "LEVEL 3 PANTHERA DBS",
+  "LEVEL 1 SERPENGLEAM AWM",
+ 
+    ],
+    moreFeat: [
+      "YELLOW/WHITE MUMMY SET",
+      "ANNIVERSARY UMP MAX",
+      "HELL FIRE AKM MAX"
+    ],
+    images: [
+      policee_1,
+  policee_2,
+  policee_3,
+  policee_4,
+  policee_5,
+    ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1779",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 10,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 7,
+    name: "653",
+    price: 90,
+    accountFeatures: [
+      "LEVEL 7 GLACIER M4",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 3 SPIRIT SENTRY UZI",
+  "LEVEL 1 KILLER TUNE M24",
+  "LEVEL 1 MALICE SCARL",
+  "LEVEL 1 PUMPKIN GROZA",
+  "LEVEL 1 LILAC THOMPSON"
+    ],
+    moreFeat: [
+       "LEVEL 1 PUMPKIN GROZA",
+  "LEVEL 1 LILAC THOMPSON"
+    ],
+    images: [
+      lillie_1,
+      lillie_2,
+      lillie_3,
+      lillie_4,
+      lillie_5,
+    ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1777",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 14,
+    accountLevel: "Crown",
+  },
+  {
+    id: 8,
+    name: "652",
+    price: 155,
+    accountFeatures: [
+      "LEVEL 6 FOOL M4",
+  "LEVEL 4 GLACIER AKM",
+  "LEVEL 4 8 BIT M762",
+  "LEVEL 3 EVENTIDE GROZA",
+  "LEVEL 3 SILVER GURU",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 2 SOARING MG3",
+  "LEVEL 2 ENIGMATIC DP",
+  "LEVEL 1 BASS SCARLi",
+ 
+    ],
+    moreFeat: [
+       "JESTER XSUIT",
+  "BUGATTI LA VOITURE COUPE"
+    ],
+    images: [
+      jesstt_1,
+      jesstt_2,
+      jesstt_3,
+      jesstt_4,
+      jesstt_5,
+      jesstt_6,
+    ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1775",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 29,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 9,
   //   name: "Pro",

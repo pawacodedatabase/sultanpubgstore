@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaSearch, FaShoppingCart, FaSnowflake, FaTshirt } from "react-icons/fa";
+import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaSearch, FaSnowflake, FaTshirt } from "react-icons/fa";
 
 import { Link } from "react-router-dom"; // Import Link for routing
 import logo from "../../assets/logo.png";
@@ -194,12 +194,12 @@ const Accounts: React.FC = () => {
               <p className="text-3xl font-bold text-[#ff5252]">
                 ${account.price?.toFixed(2)} <span className=" font-thin text-sm text-gray-300">USD</span>
               </p>
-              <button
+              {/* <button
                 className={`bg-[#ff5252] hover:bg-[#d64040] text-white px-4 py-2 text-sm font-bold rounded-lg ${!account.status ? "cursor-not-allowed opacity-50" : ""}`}
                 disabled={!account.status}
               >
                 {account.status ? <><FaShoppingCart className="mr-2" /> Buy Now</> : "Sold"}
-              </button>
+              </button> */}
             </div>
 
             {/* Account Details Button */}

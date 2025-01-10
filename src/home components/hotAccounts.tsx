@@ -12,7 +12,7 @@ const FeaturedAccounts: React.FC = () => {
   const isInView = useInView(ref, { once: true });
 
   const featuredAccounts = accounts.filter(
-    account => account.price !== undefined && account.price >= 500 && account.status
+    account => account.price !== undefined && account.price >= 150 && account.status
   );
 
   const indexOfLastAccount = currentPage * accountsPerPage;

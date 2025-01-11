@@ -10,7 +10,7 @@ const Accounts: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [showActive, setShowActive] = useState<string>("all");
   const [currentPage, setCurrentPage] = useState(1);
-  const accountsPerPage = 6;
+  const accountsPerPage = 10;
 
 
 

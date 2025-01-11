@@ -237,13 +237,13 @@ const AccountDetails: React.FC = () => {
   <h3 className="text-xl font-bold text-white">Need Help?</h3>
   <p className="text-gray-100 text-sm">Join our WhatsApp group for live support and updates!</p>
   <a
-    href="https://chat.whatsapp.com/YOUR_GROUP_LINK" // Replace with your WhatsApp group link
+    href="https://wa.me/2348167548118" // Replace with your WhatsApp group link
     target="_blank"
     rel="noopener noreferrer"
     className="inline-block mt-4 bg-white text-green-600 py-2 px-4 rounded-lg font-semibold flex items-center justify-center gap-2 hover:bg-gray-100"
   >
     <FaWhatsapp className="text-2xl" />
-    Join WhatsApp Group
+    Contact us on WhatsApp
   </a>
 </div>
 

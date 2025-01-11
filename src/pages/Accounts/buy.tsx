@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { accounts } from "./account";
-import { FaRegCopy } from "react-icons/fa";
+import { FaHome, FaRegCopy, FaWhatsapp } from "react-icons/fa";
+import WhySellToSultan from "../sell/sellAccordion";
+// import logo from '../../images/banner_1.jpg'
 
 const PaymentForm: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -16,6 +18,7 @@ const PaymentForm: React.FC = () => {
   });
   const [copied, setCopied] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [showPopup, setShowPopup] = useState(false);
 
   const account = accounts.find((acc) => acc.id === parseInt(id!));
   if (!account) {
@@ -51,7 +54,7 @@ const PaymentForm: React.FC = () => {
     });
   };
 
-  const handlePayNow = async () => {
+  const handlePayNow = () => {
     if (
       !selectedPayment ||
       !userData.name ||
@@ -64,87 +67,93 @@ const PaymentForm: React.FC = () => {
 
     setIsLoading(true);
 
-    const message = `Name: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}\nAccount Details: ${paymentDetails[selectedPayment]}`;
-
-    try {
-      // Replace `TELEGRAM_BOT_TOKEN` and `CHAT_ID` with your details
-      await fetch(
-        `https://api.telegram.org/bot8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE
-/sendMessage`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            chat_id: "6837437455",
-            text: message,
-          }),
-        }
-      );
-
-      // Redirect to WhatsApp with pre-filled message
-      const whatsappMessage = encodeURIComponent(
-        `Hello, I made a payment:\n\n${message}`
-      );
-      navigate(`https://wa.me/+2348053208997?text=${whatsappMessage}`);
-    } catch (error) {
-      console.error("Error sending message:", error);
-      // alert("Failed to process payment. Please try again.");
-    } finally {
+    setTimeout(() => {
       setIsLoading(false);
+      setShowPopup(true);
+      sendToTelegram();
+    }, 4000); // Simulate loading for 2 seconds
+  };
+
+
+  const sendToTelegram = async () => {
+    const message = `Hello, a payment has been made!\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}`;
+  
+    const telegramToken = "8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE"; // Replace with your Telegram bot token
+    const chatId = "6837437455"; // Replace with your chat ID (can be a group or individual chat)
+  
+    const url = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
+    const params = new URLSearchParams({
+      chat_id: chatId,
+      text: message,
+    });
+  
+    try {
+      const response = await fetch(`${url}?${params.toString()}`, {
+        method: "GET",
+      });
+  
+      if (response.ok) {
+        console.log("Message sent successfully");
+      } else {
+        console.error("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error sending message to Telegram:", error);
     }
   };
 
+
+  const sendToWhatsApp = () => {
+    const message = `Hello Sultan, I have made a payment.\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}`;
+    const whatsappLink = `https://wa.me/+2348167548118?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappLink, "_blank");
+  };
+
+  const goHome = () => {
+    navigate("/");
+  };
+
   return (
-    <div className="min-h-screen bg-gray-100 text-gray-800 flex items-center justify-center px-4">
+
+    <>
+   
+    <div className="min-h-screen bg-gray-100 text-gray-800 flex flex-col items-center justify-center px-4">
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-12 gap-6 bg-white rounded-lg shadow-lg">
-        {/* Left Section: Cart */}
-        <div className=" bg-gray-50 p-6 rounded-l-lg">
+        {/* Left Section: Account Info */}
+        <div className="md:col-span-7 bg-gray-50 p-6 rounded-l-lg">
           <h2 className="text-2xl font-semibold text-center mb-4">
             {account.name}
           </h2>
-
-          <h2>
-            
-          </h2>
-          <div className="space-y-4">
-            {/* <div className="flex items-start justify-between border-b pb-4"> */}
-              <div>
-                
-                <div className="m-auto flex justify-center item-center">
-                  <img
-                    src={account.images?.[0]}
-                    alt="Account Preview"
-                    className="rounded"
-                  />
-                
-              </div>
-             
-            <div>
-            <p className="text-4xl font-semibold text-center mt-4 text-red-500">
-                ${account.price?.toFixed(2)}
-              </p>
-            </div>
-            </div>
+          <div className="flex flex-col items-center">
+            <img
+              src={account.images?.[0]}
+              alt="Account Preview"
+              className="rounded w-full h-full"
+            />
+            <p className="text-4xl font-semibold mt-4 text-red-500">
+              ${account.price?.toFixed(2)}
+            </p>
+            <p className="text-sm font-thin mt-4 text-black">
+              {account.accountFeatures}
+            </p>
           </div>
         </div>
 
         {/* Right Section: Payment */}
         <div className="md:col-span-5 bg-white p-8 rounded-r-lg">
-          <h2 className="text-xl font-gaming text-center mb-6">
-            Mode Of Payment
+          <h2 className="text-xl font-semibold text-center mb-6">
+            Mode of Payment
           </h2>
-
-          {/* User Info */}
-          <div className="space-y-4">
+          <div className="space-y-4 ">
             <input
               type="text"
               name="name"
               value={userData.name}
               onChange={handleInputChange}
               placeholder="Your Name"
-              className="w-full px-4 py-3 border rounded-lg bg-[#000]  "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
             />
             <input
               type="text"
@@ -152,8 +161,7 @@ const PaymentForm: React.FC = () => {
               value={userData.country}
               onChange={handleInputChange}
               placeholder="Your Country"
-              required
-              className="w-full px-4 py-3 border rounded-lg bg-[#000]  "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
             />
             <input
               type="text"
@@ -161,8 +169,7 @@ const PaymentForm: React.FC = () => {
               value={userData.whatsapp}
               onChange={handleInputChange}
               placeholder="WhatsApp Number"
-              required
-              className="w-full px-4 py-3 border rounded-lg bg-[#000]  "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
             />
             <input
               type="text"
@@ -170,8 +177,7 @@ const PaymentForm: React.FC = () => {
               value={userData.amountPaid}
               onChange={handleInputChange}
               placeholder="Amount Paid"
-              required
-              className="w-full px-4 py-3 border rounded-lg bg-[#000]  "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000]"
             />
           </div>
 
@@ -183,7 +189,7 @@ const PaymentForm: React.FC = () => {
                 onClick={() => handlePaymentSelection(paymentType)}
                 className={`w-full px-4 py-3 rounded-lg border ${
                   selectedPayment === paymentType
-                    ? "hover:bg-black  border-black text-black hover:text-white"
+                    ? "bg-black text-white"
                     : "bg-gray-50 hover:bg-gray-100"
                 }`}
               >
@@ -224,7 +230,7 @@ const PaymentForm: React.FC = () => {
             className={`w-full mt-6 px-6 py-3 rounded-lg font-medium text-white ${
               isLoading
                 ? "bg-red-500 cursor-not-allowed"
-                : "bg-red-600 hover:bg-black"
+                : "bg-red-600 hover:bg-red-700"
             }`}
             disabled={isLoading || !selectedPayment}
           >
@@ -232,7 +238,50 @@ const PaymentForm: React.FC = () => {
           </button>
         </div>
       </div>
+
+      {/* Loading Screen */}
+      {isLoading && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center z-50">
+          <div className="text-white text-xl">Processing...</div>
+          <div className="loader border-t-4 border-b-4 border-red-500 border-solid w-16 h-16 rounded-full animate-spin"></div>
+        </div>
+      )}
+
+      {/* WhatsApp Popup */}
+      {showPopup && (
+  <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50">
+    <div
+      className="bg-cover bg-center rounded-lg w-full max-w-lg text-center p-8"
+     
+    >
+      <h2 className="text-2xl font-semibold text-white mb-4">Confirming Payment</h2>
+      <p className="text-xl text-gray-300 mb-6">
+        Kindly send your payment details via WhatsApp to confirm.
+      </p>
+
+      <div className="flex  items-center  gap-3 justify-center">
+        <button
+          onClick={sendToWhatsApp}
+          className="px-8 py-4 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-600 transition ease-in-out"
+        >
+          <FaWhatsapp/>
+        </button>
+
+        <button
+          onClick={goHome}
+          className="px-8 py-4 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition ease-in-out"
+        >
+          <FaHome/>
+        </button>
+      </div>
     </div>
+  </div>
+)}
+
+
+    </div>
+    <WhySellToSultan/>
+     </>
   );
 };
 

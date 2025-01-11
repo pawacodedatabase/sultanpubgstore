@@ -4,6 +4,7 @@ import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaSearch, FaSnowfla
 import { Link } from "react-router-dom"; // Import Link for routing
 import logo from "../../assets/logo.png";
 import {  accounts } from "./account";
+import ScrollToTop from "../scroll2top";
 
 const Accounts: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -60,6 +61,8 @@ const Accounts: React.FC = () => {
   };
 
   return (
+    <>
+    <ScrollToTop/>
     <div className="min-h-screen  p-8 text-white">
       {/* Marketplace Header */}
       <header className="text-center mb-10">
@@ -241,7 +244,7 @@ const Accounts: React.FC = () => {
           Next
         </button>
       </div>
-    </div>
+    </div></>
   );
 };
 

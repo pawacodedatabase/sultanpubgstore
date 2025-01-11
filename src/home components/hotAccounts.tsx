@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaGamepad, FaCrosshairs, FaCarAlt, FaCrown, FaFireAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
@@ -6,8 +6,6 @@ import { motion, useInView } from "framer-motion";
 import { accounts } from "../pages/Accounts/account";
 
 const FeaturedAccounts: React.FC = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const accountsPerPage = 6;
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -15,17 +13,8 @@ const FeaturedAccounts: React.FC = () => {
     account => account.price !== undefined && account.price >= 150 && account.status
   );
 
-  const indexOfLastAccount = currentPage * accountsPerPage;
-  const indexOfFirstAccount = indexOfLastAccount - accountsPerPage;
-  const currentFeaturedAccounts = featuredAccounts.slice(
-    indexOfFirstAccount,
-    indexOfLastAccount
-  );
-
-  const totalPages = Math.ceil(featuredAccounts.length / accountsPerPage);
-
   return (
-    <div ref={ref} className="min-h-screen p-4 bg-[#1a1a1a] text-white">
+    <div ref={ref} className=" p-4 bg-[#1a1a1a] text-white">
       <header className="text-center mb-6 mt-6">
         <h1 className="text-2xl font-bold text-red-500 font-gaming">
           🔥 Hot PUBG Accounts
@@ -38,7 +27,7 @@ const FeaturedAccounts: React.FC = () => {
 
       {/* Featured Accounts Grid */}
       <motion.div
-        className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-2 h-[70vh]gap-4 sm:grid-cols-2 lg:grid-cols-3"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={{
@@ -46,7 +35,7 @@ const FeaturedAccounts: React.FC = () => {
           visible: { opacity: 1, y: 0, transition: { staggerChildren: 0.2, duration: 0.8 } },
         }}
       >
-        {currentFeaturedAccounts.map(account => (
+        {featuredAccounts.map(account => (
           <motion.div
             key={account.id}
             className="bg-[#2a2a2a] border border-gray-700 shadow-md rounded-lg p-3 relative hover:shadow-lg transition-all duration-300"
@@ -102,7 +91,7 @@ const FeaturedAccounts: React.FC = () => {
                 ${account.price?.toFixed(2)}
               </p>
               <button className="bg-[#ff5252] hover:bg-[#d64040] text-white px-3 py-1 text-xs font-bold rounded-md flex items-center gap-1">
-                <FaFireAlt /> 
+                <FaFireAlt />
               </button>
             </div>
 
@@ -115,27 +104,6 @@ const FeaturedAccounts: React.FC = () => {
           </motion.div>
         ))}
       </motion.div>
-
-      {/* Pagination */}
-      <div className="flex justify-center mt-8 gap-4">
-        <button
-          className="py-2 px-4 bg-gray-700 text-white rounded-md hover:bg-gray-800 transition-all duration-200 text-sm flex items-center gap-2"
-          onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
-          disabled={currentPage === 1}
-        >
-          <span>← Prev</span>
-        </button>
-        <span className="text-white text-sm">
-          {currentPage} of {totalPages}
-        </span>
-        <button
-          className="py-2 px-4 bg-gray-700 text-white rounded-md hover:bg-gray-800 transition-all duration-200 text-sm flex items-center gap-2"
-          onClick={() => setCurrentPage(Math.min(totalPages, currentPage + 1))}
-          disabled={currentPage === totalPages}
-        >
-          <span>Next →</span>
-        </button>
-      </div>
     </div>
   );
 };

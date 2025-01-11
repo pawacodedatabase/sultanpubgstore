@@ -40,7 +40,7 @@ const Accordion: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white flex items-center justify-center">
       <div className="max-w-3xl w-full px-6">
         <h2 className="text-xl font-extrabold mb-8 text-center bg-clip-text text-transparent bg-gray-400">
-          FAQs About PUBG Mobile Accounts
+          FAQs About Sultan Pubg Store
         </h2>
         {faqs.map((faq, index) => (
           <div

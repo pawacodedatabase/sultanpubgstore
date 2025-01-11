@@ -88,10 +88,10 @@ const Header: React.FC = () => {
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <Link
-              to="/about"
+              to="https://wa.me/2348167548118"
               className="text-gray-700 hover:text-red-500 hover:font-bold relative"
             >
-              About Us
+             Contact Us
               {/* Underline Effect */}
               <motion.span
                 className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
@@ -219,11 +219,11 @@ const Header: React.FC = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              to="/about"
+              to="https://wa.me/2348167548118"
               className="text-gray-700 hover:text-red-500 hover:font-bold"
               onClick={() => setMenuOpen(false)}
             >
-              About Us
+              Contact Us
               <motion.div
                 className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
                 initial={{ scale: 0 }}
@@ -260,7 +260,7 @@ const Header: React.FC = () => {
           </motion.div>
 
           <button
-            className="mt-4 text-gray-700 hover:text-orange-600 flex items-center space-x-2 border-2 p-2 border-black hover:bg-black hover:text-[#fff]"
+            className="mt-4 text-gray-700 hover:text-white flex items-center space-x-2 border-2 p-2 border-black hover:bg-black hover:text-[#fff]"
             onClick={() => setMenuOpen(false)}
           >
             <AiOutlineClose size={15} />

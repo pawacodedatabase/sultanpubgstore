@@ -10,3 +10,26 @@
   body {
     background-color: #ffffff;
   }
+
+  /* Circular Spinner */
+.loader {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-top-color: #ff0000;
+  border-right-color: #ff0000;
+  border-bottom-color: #ff0000;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+

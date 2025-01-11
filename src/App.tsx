@@ -10,10 +10,14 @@ import SellYourAccount from './pages/sell/sell';
 import Confirmation from './pages/sell/confirmation';
 import Footer from './home components/footer';
 import BuyAccount from './pages/Accounts/buy';
+import ScrollToTop from './pages/scroll2top';
+import ConfirmationPage from './pages/Accounts/confirmation';
+import PaymentForm from './pages/Accounts/buy';
 
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop/>
      <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,6 +27,8 @@ const App: React.FC = () => {
         <Route path="/confirmation" element={<Confirmation/>} />
         <Route path="/account/:id" element={<AccountDetails/>} />
         <Route path="/buy/:id" element={<BuyAccount />} />
+        <Route path="/confirmation" element={<ConfirmationPage />} />
+        <Route path="/payment/:id" element={<PaymentForm />} />
       </Routes>
       <Footer/>
     </Router>

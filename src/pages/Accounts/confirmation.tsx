@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const ConfirmationPage: React.FC = () => {
   const location = useLocation();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();ngi
 
   // Handle case where no state is passed
   if (!location.state) {

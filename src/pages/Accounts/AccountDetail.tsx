@@ -6,6 +6,7 @@ import logo from '../../images/pubg-mobile.webp'
 import Accordion from "./accordion"
 import ReactPlayer from 'react-player';
 import { useNavigate } from "react-router-dom";
+import FeaturedAccounts from "../../home components/hotAccounts";
 ;
 const AccountDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -20,7 +21,7 @@ const AccountDetails: React.FC = () => {
   return (
 
     <>
-    <div className="min-h-screen bg-[#0d1117] text-white">
+    <div className=" bg-[#0d1117] text-white">
       {/* Header Section */}
       <header className="py-6 px-8 flex justify-between items-center bg-[#161b22]">
         <h1 className="text-2xl font-thin flex items-center gap-2">
@@ -250,9 +251,9 @@ const AccountDetails: React.FC = () => {
         </div>
       </div>
     </div>
-
+ <FeaturedAccounts/>   
     <Accordion/>
-    
+
     </>
   );
 };

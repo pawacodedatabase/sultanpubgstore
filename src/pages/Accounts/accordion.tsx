@@ -37,7 +37,7 @@ const Accordion: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white flex items-center justify-center mt-8">
       <div className="max-w-3xl w-full px-6">
         <h2 className="text-xl font-extrabold mb-8 text-center bg-clip-text text-transparent bg-gray-400">
           FAQs About Sultan Pubg Store

@@ -1,24 +1,22 @@
 import React, { useState } from "react";
 import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaShoppingCart } from "react-icons/fa";
-import logo from '../../assets/logo.png'
-import {  accounts } from "./account"; // Make sure to import your accounts and types
+import logo from '../../assets/logo.png';
+import { accounts } from "./account"; // Make sure to import your accounts and types
 import { Link } from "react-router-dom";
 
 const NewArrivals: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const accountsPerPage = 6;
+  const accountsPerPage = 10;
 
-  // Assuming you are fetching all accounts (you can filter for 'new' accounts if needed)
-  const currentAccounts = accounts;
+  // Sort accounts in ascending order by 'id' (or any other property)
+  // const sortedAccounts = accounts.sort((a, b) => a.id - b.id);
+  const sortedAccounts = accounts.sort((a, b) => b.id - a.id);
 
   const indexOfLastAccount = currentPage * accountsPerPage;
   const indexOfFirstAccount = indexOfLastAccount - accountsPerPage;
-  const currentAccountsPaginated = currentAccounts.slice(indexOfFirstAccount, indexOfLastAccount);
+  const currentAccountsPaginated = sortedAccounts.slice(indexOfFirstAccount, indexOfLastAccount);
 
-  // Reverse the accounts to show them in ascending order (bottom to top)
-  const currentAccountsPaginatedReversed = [...currentAccountsPaginated].reverse();
-
-  const totalPages = Math.ceil(currentAccounts.length / accountsPerPage);
+  const totalPages = Math.ceil(sortedAccounts.length / accountsPerPage);
 
   return (
     <div className="min-h-screen p-8 text-black">
@@ -26,7 +24,7 @@ const NewArrivals: React.FC = () => {
 
       {/* Accounts Table */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {currentAccountsPaginatedReversed.map((account) => (
+        {currentAccountsPaginated.map((account) => (
           <div
             key={account.id}
             className="bg-[#000000] border shadow-lg rounded-lg p-6 w-full relative hover:shadow-2xl transition-all duration-300"

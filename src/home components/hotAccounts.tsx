@@ -27,7 +27,7 @@ const FeaturedAccounts: React.FC = () => {
 
       {/* Featured Accounts Grid */}
       <motion.div
-        className="grid grid-cols-2 h-[70vh]gap-4 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-2 h-[70vh] gap-4 sm:grid-cols-2 lg:grid-cols-3"
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
         variants={{
@@ -38,7 +38,7 @@ const FeaturedAccounts: React.FC = () => {
         {featuredAccounts.map(account => (
           <motion.div
             key={account.id}
-            className="bg-[#2a2a2a] border border-gray-700 shadow-md rounded-lg p-3 relative hover:shadow-lg transition-all duration-300"
+            className="bg-[#2a2a2a] border h-[300px] border-gray-700 shadow-md rounded-lg p-3 relative hover:shadow-lg transition-all duration-300"
             whileHover={{ scale: 1.05 }}
           >
             {/* Account Name */}
@@ -61,13 +61,13 @@ const FeaturedAccounts: React.FC = () => {
                 {account.accountLevel}
               </span>
             </p>
-            <p className="text-xs text-gray-400 italic mb-2">
+            {/* <p className="text-xs text-gray-400 italic mb-2">
               {account.accountFeatures
                 ?.join(" ")
                 .split(" ")
                 .slice(0, 10)
                 .join(" ")}...
-            </p>
+            </p> */}
 
             {/* Stats */}
             <div className="flex justify-between items-center text-xs text-gray-400 mb-2">

@@ -75,11 +75,14 @@ const PaymentForm: React.FC = () => {
   };
 
 
+  
+
+
   const sendToTelegram = async () => {
     const message = `Hello, a payment has been made!\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}`;
   
-    const telegramToken = "8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE"; // Replace with your Telegram bot token
-    const chatId = "6837437455"; // Replace with your chat ID (can be a group or individual chat)
+    const telegramToken = "8084822978:AAEiJAl4Z5wg7BrAn9l1w12y1Vd8l7Y8G7w"; // Replace with your Telegram bot token
+    const chatId = "1798696662"; // Replace with your chat ID (can be a group or individual chat)
   
     const url = `https://api.telegram.org/bot${telegramToken}/sendMessage`;
     const params = new URLSearchParams({

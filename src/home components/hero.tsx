@@ -10,6 +10,7 @@ import banner_7 from '../images/banner_7.jpg';
 import banner_8 from '../images/banner_8.jpg';
 import banner_9 from '../images/banner_9.jpg';
 import {  FaArrowAltCircleLeft, FaArrowAltCircleRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 interface HeroSlide {
   image: string;
@@ -39,14 +40,14 @@ const heroSlides: HeroSlide[] = [
     heading: 'Unlock Elite PUBG Accounts Now!',
     text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/store',
+    buttonLink: '/new-arrivals',
   },
   {
     image: banner_4,
     heading: 'Unlock Elite PUBG Accounts Now!',
     text: 'Access rare and highly-ranked PUBG accounts at unbeatable prices. Elevate your gameplay today',
     buttonLabel: 'Grab the Deal',
-    buttonLink: '/store',
+    buttonLink: '/new-arrivals',
   },
   {
     image: banner_5,
@@ -117,12 +118,16 @@ const HeroSection: React.FC = () => {
         <p className="text-sm font-thin p-6 mb-8 max-w-lg mx-auto text-shadow-md">
           {text}
         </p>
-        <a
-          href={buttonLink}
-          className="px-2 py-2 bg-[#000] text-white border-2   font-thin hover:bg-transparent hover:text-white transition transform hover:scale-105"
-        >
-          {buttonLabel}
-        </a>
+       
+          
+        
+<div className='px-2 py-2 bg-[#000]  flex justify-center m-auto w-[150px] text-white border-2   font-thin hover:bg-transparent hover:text-white transition transform hover:scale-105'>
+
+  <Link to={buttonLink}>
+        {buttonLabel}
+        </Link>
+</div>
+        
       </div>
 
       {/* Slide Navigation Buttons */}

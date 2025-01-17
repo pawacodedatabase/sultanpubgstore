@@ -155,32 +155,36 @@ const PaymentForm: React.FC = () => {
               name="name"
               value={userData.name}
               onChange={handleInputChange}
+              required
               placeholder="Your Name"
-              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] text-white "
             />
             <input
               type="text"
               name="country"
               value={userData.country}
               onChange={handleInputChange}
+              required
               placeholder="Your Country"
-              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] text-white"
             />
             <input
               type="text"
               name="whatsapp"
               value={userData.whatsapp}
               onChange={handleInputChange}
+              required
               placeholder="WhatsApp Number"
-              className="w-full px-4 py-3 border rounded-lg bg-[#000] "
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] text-white"
             />
             <input
               type="text"
               name="amountPaid"
+              required
               value={userData.amountPaid}
               onChange={handleInputChange}
               placeholder="Amount Paid"
-              className="w-full px-4 py-3 border rounded-lg bg-[#000]"
+              className="w-full px-4 py-3 border rounded-lg bg-[#000] text-white"
             />
           </div>
 

@@ -76,6 +76,17 @@ import shorrtt_4 from './images/shorrtt_4.jpg';
 import shorrtt_5 from './images/shorrtt_5.jpg';
 import shorrtt_6 from './images/shorrtt_6.jpg';
 
+import shenormm_1 from './images/rabayii_1.jpg';
+import shenormm_2 from './images/rabayii_2.jpg';
+import shenormm_3 from './images/rabayii_3.jpg';
+import shenormm_4 from './images/rabayii_4.jpg';
+
+
+import showww_1 from './images/rabayii_1.jpg';
+import showww_2 from './images/rabayii_2.jpg';
+import showww_3 from './images/rabayii_3.jpg';
+import showww_4 from './images/rabayii_4.jpg';
+import showww_5 from './images/rabayii_5.jpg';
 
 
 import jesstt_1 from './images/jesstt_1.jpg';
@@ -582,34 +593,83 @@ import eggg_6 from './images/eggg_6.jpg';
     gunSkinsCount: 32,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 14,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 15,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 14,
+    name: "Pro",
+    price: 270,
+    accountFeatures: [
+      "MOONDROP ETERNA SET",
+      "WINTER HIGHNESS SET",
+      "SHINOBI SPIRIT SET",
+      "SERPENGLEAM SET",
+      "LEVEL 7 GLACIER M4",
+      "LEVEL 5 FOOL M4",
+      "LEVEL 5 CRYO UMP",
+      "LEVEL 5 RAIDER GROZA",
+      "LEVEL 4 CANDY THOMPSON",
+      "LEVEL 4 ROMANTIC UZI",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 4 FOLLY CLASP SCARL",
+      "LEVEL 4 SHINOBI KAMI M4",
+      "LEVEL 4 SERPENGLEAM AWM",
+      "LEVEL 3 WINTER M249",
+     
+    ],
+    moreFeat: [
+      "CRYO FROST UMP ALL ATTACHMENT UNLOCKED",
+      "SHINOBI KAMI M416 ALL ATTACHMENTS UNLOCKED",
+      "SERPENGLEAM AWM ALL ATTACHMENTS UNLOCKED"
+    ],
+    images: [shenormm_1, shenormm_2, shenormm_3, shenormm_4],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1793",
+    status: false,
+    mythicsCount: 50,
+    carsCount: 5,
+    gunSkinsCount: 26,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 15,
+    name: "Pro",
+    price: 275,
+    accountFeatures: [
+      "LEVEL 5 TIDAL M4",
+      "LEVEL 4 SPLENDOR M4",
+      "LEVEL 5 ADMIRAL AKM",
+      "LEVEL 4 GLACIER AKM",
+      "LEVEL 4 CANDY THOMPSON",
+      "LEVEL 4 ENIGMATIC DP",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 4 TWILIGHT SHOTGUN",
+      "LEVEL 4 ETHEREAL UZI",
+      "LEVEL 4 ICICLE MINI14",
+      "LEVEL 4 KILLER TUNE M24",
+      "LEVEL 4 BASS SCARL",
+      "LEVEL 4 CRUSHER BIZON",
+      "LEVEL 4 EMP UMP",
+      "LEVEL 4 CIRCUS AUG",
+      "LEVEL 4 GALAXY MK14",
+      "LEVEL 4 RIVER STYX GROZA",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 1 GLACIER M4",
+      
+    ],
+    moreFeat: [
+      "JESTER XSUIT",
+      "ONE EXTRA MATERIAL",
+      "BUGATTI LA VOITURE NOIRE",
+      "DUCATI PANIGALE V4"
+    ],
+    images: [
+      showww_1, showww_2, showww_3, showww_4, showww_5
+    ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1795",
+    status: true,
+    mythicsCount: 50,
+    carsCount: 5,
+    gunSkinsCount: 42,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 16,
   //   name: "Pro",

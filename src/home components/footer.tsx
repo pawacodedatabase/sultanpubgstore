@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/SULTAN_logo.gif'
+import { FaEnvelope, FaTelegram } from "react-icons/fa";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#fffbf4] text-white py-12">
@@ -39,7 +40,7 @@ const Footer: React.FC = () => {
         {/* Social Media & Copyright Section */}
         <div className="mt-12 border-t border-gray-600 pt-8 text-center">
           <div className="flex justify-center gap-8 mb-6">
-            <a
+            {/* <a
               href="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -54,22 +55,22 @@ const Footer: React.FC = () => {
               className="text-gray-400 hover:text-black transform hover:scale-110 transition-all duration-300"
             >
               <i className="fab fa-twitter text-2xl"></i>
-            </a>
+            </a> */}
             <a
-              href="https://www.instagram.com/"
+              href="mailto:Sultanpubgstoree@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-black transform hover:scale-110 transition-all duration-300"
             >
-              <i className="fab fa-instagram text-2xl"></i>
+              <FaEnvelope className="text-2xl"/>
             </a>
             <a
-              href="https://t.me/"
+              href="https://t.me/Sultan_pubg_acc_Dealerr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-black transform hover:scale-110 transition-all duration-300"
             >
-              <i className="fab fa-telegram text-2xl"></i>
+              <FaTelegram className="text-2xl"/>
             </a>
           </div>
 

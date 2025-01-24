@@ -9,11 +9,15 @@ import DualImageComponent from './dualimage';
 const Home: React.FC = () => {
   return (
     <>
-    
+
+    <div className='bg-[#000] gap-5'>
+      <EmailPopup/> 
     <HeroSection/>
     <FeaturedAccounts/>
-    <EmailPopup/>
+   <br /> <br />
     <DualImageComponent/>
+    
+    </div>
     </>
   );
 };

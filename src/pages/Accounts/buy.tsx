@@ -241,7 +241,7 @@ const PaymentForm: React.FC = () => {
             }`}
             disabled={isLoading || !selectedPayment}
           >
-            {isLoading ? "Processing..." : "Paid"}
+            {isLoading ? "Processing..." : "Confirm Payment"}
           </button>
         </div>
       </div>

@@ -46,6 +46,62 @@ import mauve_4 from './images/mauve_4.jpg';
 import mauve_5 from './images/mauve_5.jpg';
 import mauve_6 from './images/mauve_6.jpg';
 
+import crimmin__1 from './images/crimmin__1.jpg';
+import crimmin__2 from './images/crimmin__2.jpg';
+import crimmin__3 from './images/crimmin__3.jpg';
+import crimmin__4 from './images/crimmin__4.jpg';
+import crimmin__5 from './images/crimmin__5.jpg';
+import crimmin__6 from './images/crimmin__6.jpg';
+import crimmin__7 from './images/crimmin__7.jpg';
+
+import yelllll___1 from './images/yelllll___1.jpg';
+import yelllll___2 from './images/yelllll___2.jpg';
+import yelllll___3 from './images/yelllll___3.jpg';
+import yelllll___4 from './images/yelllll___4.jpg';
+import yelllll___5 from './images/yelllll___5.jpg';
+import yelllll___6 from './images/yelllll___6.jpg';
+import yelllll___7 from './images/yelllll___7.jpg';
+import yelllll___8 from './images/yelllll___8.jpg';
+
+
+
+
+import martt_1 from './images/martt_1.jpg';
+import martt_2 from './images/martt_2.jpg';
+import martt_3 from './images/martt_3.jpg';
+import martt_4 from './images/martt_4.jpg';
+import martt_5 from './images/martt_5.jpg';
+import martt_6 from './images/martt_6.jpg';
+import martt_7 from './images/martt_7.jpg';
+
+import ommoeyru_1 from './images/ommoeyru_1.jpg';
+import ommoeyru_2 from './images/ommoeyru_2.jpg';
+import ommoeyru_3 from './images/ommoeyru_3.jpg';
+import ommoeyru_4 from './images/ommoeyru_4.jpg';
+import ommoeyru_5 from './images/ommoeyru_5.jpg';
+import ommoeyru_6 from './images/ommoeyru_6.jpg';
+import ommoeyru_7 from './images/ommoeyru_7.jpg';
+import ommoeyru_8 from './images/ommoeyru_8.jpg';
+import ommoeyru_9 from './images/ommoeyru_9.jpg';
+
+import masssaapp__1 from './images/masssaapp__1.jpg';
+import masssaapp__2 from './images/masssaapp__2.jpg';
+import masssaapp__3 from './images/masssaapp__3.jpg';
+import masssaapp__4 from './images/masssaapp__4.jpg';
+import masssaapp__5 from './images/masssaapp__5.jpg';
+import masssaapp__6 from './images/masssaapp__6.jpg';
+import masssaapp__7 from './images/masssaapp__7.jpg';
+import masssaapp__8 from './images/masssaapp__8.jpg';
+import masssaapp__9 from './images/masssaapp__9.jpg';
+
+import moooooww_1 from './images/moooooww_1.jpg';
+import moooooww_2 from './images/moooooww_2.jpg';
+import moooooww_3 from './images/moooooww_3.jpg';
+import moooooww_4 from './images/moooooww_4.jpg';
+import moooooww_5 from './images/moooooww_5.jpg';
+import moooooww_6 from './images/moooooww_6.jpg';
+import moooooww_7 from './images/moooooww_7.jpg';
+
 
 import nairamm_1 from './images/nairamm_1.jpg';
 import nairamm_2 from './images/nairamm_2.jpg';
@@ -551,7 +607,7 @@ import eggg_6 from './images/eggg_6.jpg';
     images: [muuumm_1, muuumm_2, muuumm_3, muuumm_4, muuumm_5,
       muuumm_6],
     videoLink: "",
-    status: true,
+    status: false,
     mythicsCount: 50,
     carsCount: 3,
     gunSkinsCount: 23,
@@ -595,7 +651,7 @@ import eggg_6 from './images/eggg_6.jpg';
   },
   {
     id: 14,
-    name: "Pro",
+    name: "661",
     price: 270,
     accountFeatures: [
       "MOONDROP ETERNA SET",
@@ -630,7 +686,7 @@ import eggg_6 from './images/eggg_6.jpg';
   },
   {
     id: 15,
-    name: "Pro",
+    name: "662",
     price: 275,
     accountFeatures: [
       "LEVEL 5 TIDAL M4",
@@ -670,8 +726,236 @@ import eggg_6 from './images/eggg_6.jpg';
     gunSkinsCount: 42,
     accountLevel: "Conquerer",
   },
+  {
+    id: 16,
+    name: "665",
+    price: 145,
+    accountFeatures: ["ULTIMATE SET",
+  "FOXY FLARE SET",
+  "CRIMSON EPHIALTES SET",
+  "LEVEL 7 GLACIER M4",
+  "LEVEL 5 DECISIVE AKM",
+  "LEVEL 4 BUTTERFLY M24",
+  "LEVEL 3 SOARING MG3",
+  "LEVEL 2 ETHEREAL UZI",
+  "LEVEL 1 CRIMSON AMR",
+  ],
+    moreFeat: ["JINX CHARACTER SET",
+  "DODGE CHALLENGER SRT",
+  "DODGE HORNET"],
+    images: [ crimmin__1,
+      crimmin__2,
+      crimmin__3,
+      crimmin__4,
+      crimmin__5,
+      crimmin__6,
+      crimmin__7,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1801",
+    status: true,
+    mythicsCount: 30,
+    carsCount: 4,
+    gunSkinsCount: 13,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 17,
+    name: "666",
+    price: 150,
+    accountFeatures: [  "LEVEL 5 FOOL M4",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 4 BASS SCARL",
+      "LEVEL 4 GALAXY MK14",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 3 NIGHTSCAPE BIZON",
+      "LEVEL 3 SPIRIT SENTRY UZI",
+      "LEVEL 2 SKY HUNTRESS MG3",
+      "2 EXTRA MATERIALS",
+     ],
+    moreFeat: [ "ANNIVERSARY UMP MAX",
+      "BENTLEY CONTINENTAL GTC",
+      "SSC TUATARA SKY CRANE",
+      "IGNIS XSUIT",
+      "GALADRIA XSUIT"],
+    images: [ moooooww_1,
+      moooooww_2,
+      moooooww_3,
+      moooooww_4,
+      moooooww_5,
+      moooooww_6,
+      moooooww_7,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1803",
+    status: true,
+    mythicsCount: 50,
+    carsCount: 5,
+    gunSkinsCount: 19,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 18,
+    name: "667",
+    price: 1250,
+    accountFeatures: ["LEVEL 7 GLACIER M4",
+  "LEVEL 7 FOOL M4",
+  "LEVEL 7 GLACIER AKM",
+  "LEVEL 7 CRYO UMP",
+  "LEVEL 7 LIZARD ROAR",
+  "LEVEL 6 REBELLION M762",
+  "LEVEL 7 FOLLY CLASP SCARL",
+  "LEVEL 4 SEVEN SEA M24",
+  "LEVEL 4 SAVAGERY UZI",
+  "LEVEL 4 BLOOD VECTOR",
+  "LEVEL 4 RAIDER GROZA",
+  "LEVEL 4 8 BIT M762",
+  "LEVEL 4 AVENGER AWM",
+  "LEVEL 4 WINTER M249",
+  "LEVEL 4 LADY M24",
+  "LEVEL 4 CRUSHER BIZON",
+  "LEVEL 4 EMP UMP",
+  "LEVEL 4 8 BIT BLAST UMP",
+  "LEVEL 4 SOARING MG3",
+  "LEVEL 4 GLACE AUG",
+  "LEVEL 4 DECISIVE AKM",
+  "LEVEL 4 DEVIOUS CYBER P90",
+  ],
+    moreFeat: ["MISSION IMPOSSIBLE TOP",
+  "LAMBORGHINI URUS",
+  "KOENIGSEGG GAMERA",
+  "LAMBORGHINI AVANTEDOR",
+  "6 XSUIT (MAX BLOOD RAVEN)"],
+    images: [  masssaapp__1,
+      masssaapp__2,
+      masssaapp__3,
+      masssaapp__4,
+      masssaapp__5,
+      masssaapp__6,
+      masssaapp__7,
+      masssaapp__8,
+      masssaapp__9,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1805",
+    status: true,
+    mythicsCount: 100,
+    carsCount: 10,
+    gunSkinsCount: 47,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 19,
+    name: "668",
+    price: 300,
+    accountFeatures: [ "ULTIMATE SET",
+      "INFERNO FIEND SET",
+      "YELLOW MUMMY SET",
+      "ANGEL WINGS SET",
+      "LEVEL 7 GLACIER M4",
+      "LEVEL 4 SEVEN SEA M24",
+      "LEVEL 4 8 BIT M763",
+      "LEVEL 4 AVENGER AWM",
+      "LEVEL 4 ETHEREAL UZI",
+      "LEVEL 4 EVENTIDE GROZA",
+      "LEVEL 4 JADE DP",
+      "LEVEL 4 ICICLE SPIKE ACE32",
+      "LEVEL 4 LUMINA SCARL",
+      "LEVEL 3 MELODY SKS",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 3 KADENCE KAR98",
+     ],
+    moreFeat: [
+      "HELL FIRE AKM MAX",
+      "ROBUST WILD UAZ",
+      "ANNIVERSARY MIRADO",
+      "PAGANI ZONDA R",
+      "DODGE CHALLENGER SRT",
+      "POSEIDON XSUIT",
+      "SILVANUS XSUIT",
+      "IGNIS XSUIT",
+      "FIORE XSUIT",
+      "GALADRIA XSUIT",
+      "AVALANCHE XSUIT"
+    ],
+    images: [  ommoeyru_1,
+      ommoeyru_2,
+      ommoeyru_3,
+      ommoeyru_4,
+      ommoeyru_5,
+      ommoeyru_6,
+      ommoeyru_7,
+      ommoeyru_8,
+      ommoeyru_9,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1807",
+    status: true,
+    mythicsCount: 80,
+    carsCount: 5,
+    gunSkinsCount: 27,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 20,
+    name: "669",
+    price: 200,
+    accountFeatures: ["ULTIMATE SET",
+  "CRIMSON EPHIALTES SET",
+  "LEVEL 7 FOOL M4",
+  "LEVEL 4 KILLER TUNE M24",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 2 SKY HUNTRESS MG3",
+  "LEVEL 1 TIDAL M4",
+  "LEVEL 1 ONYX WIZARD AMR",
+  "LEVEL 1 SOARING MG3",
+  ],
+    moreFeat: ["14 EXTRA MATERIALS",
+  "TIDAL M4 ATTACHMENT",
+  "STYGIAN LEIGE XSUIT",
+  "ASTON MARTIN VALKYRIE (AIR DROP)"],
+    images: [martt_1,
+      martt_2,
+      martt_3,
+      martt_4,
+      martt_5,
+      martt_6,
+      martt_7,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1809",
+    status: false,
+    mythicsCount: 50,
+    carsCount: 5,
+    gunSkinsCount: 19,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 21,
+    name: "670",
+    price: 220,
+    accountFeatures: [ "LEVEL 7 FOOL M4",
+      "LEVEL 4 SEVEN SEA AKM M24",
+      "LEVEL 4 BUTTERFLY M24",
+      "LEVEL 4 EMP UMP",
+      "LEVEL 4 JADE DP",
+      "LEVEL 3 GLACIER AKM",
+      "LEVEL 3 SPIRIT SENTRY UZI",
+      "LEVEL 2 REBELLION M762",
+      "LEVEL 2 STEAM THOMPSON",
+      ],
+    moreFeat: ["4 EXTRA MATERIALS",
+      "SILVANUS XSUIT",
+      "POSEIDON XSUIT",
+      "TESLA ROADSTER",
+      "LAMBORGHINI AVANTEDOR"],
+    images: [  yelllll___1,
+      yelllll___2,
+      yelllll___3,
+      yelllll___4,
+      yelllll___5,
+      yelllll___6,
+      yelllll___7,
+      yelllll___8,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1811",
+    status: true,
+    mythicsCount: 100,
+    carsCount: 5,
+    gunSkinsCount: 23,
+    accountLevel: "Conquerer",
+  },
   // {
-  //   id: 16,
+  //   id: 22,
   //   name: "Pro",
   //   price: null,
   //   accountFeatures: [],
@@ -685,7 +969,7 @@ import eggg_6 from './images/eggg_6.jpg';
   //   accountLevel: "Conquerer",
   // },
   // {
-  //   id: 17,
+  //   id: 20,
   //   name: "Pro",
   //   price: null,
   //   accountFeatures: [],
@@ -699,7 +983,7 @@ import eggg_6 from './images/eggg_6.jpg';
   //   accountLevel: "Conquerer",
   // },
   // {
-  //   id: 18,
+  //   id: 20,
   //   name: "Pro",
   //   price: null,
   //   accountFeatures: [],
@@ -713,7 +997,63 @@ import eggg_6 from './images/eggg_6.jpg';
   //   accountLevel: "Conquerer",
   // },
   // {
-  //   id: 19,
+  //   id: 20,
+  //   name: "Pro",
+  //   price: null,
+  //   accountFeatures: [],
+  //   moreFeat: [],
+  //   images: [],
+  //   videoLink: "",
+  //   status: true,
+  //   mythicsCount: 5,
+  //   carsCount: 5,
+  //   gunSkinsCount: 15,
+  //   accountLevel: "Conquerer",
+  // },
+  // {
+  //   id: 20,
+  //   name: "Pro",
+  //   price: null,
+  //   accountFeatures: [],
+  //   moreFeat: [],
+  //   images: [],
+  //   videoLink: "",
+  //   status: true,
+  //   mythicsCount: 5,
+  //   carsCount: 5,
+  //   gunSkinsCount: 15,
+  //   accountLevel: "Conquerer",
+  // },
+  // {
+  //   id: 20,
+  //   name: "Pro",
+  //   price: null,
+  //   accountFeatures: [],
+  //   moreFeat: [],
+  //   images: [],
+  //   videoLink: "",
+  //   status: true,
+  //   mythicsCount: 5,
+  //   carsCount: 5,
+  //   gunSkinsCount: 15,
+  //   accountLevel: "Conquerer",
+  // },
+  // {
+  //   id: 20,
+  //   name: "Pro",
+  //   price: null,
+  //   accountFeatures: [],
+  //   moreFeat: [],
+  //   images: [],
+  //   videoLink: "",
+  //   status: true,
+  //   mythicsCount: 5,
+  //   carsCount: 5,
+  //   gunSkinsCount: 15,
+  //   accountLevel: "Conquerer",
+  // },
+  // {
+  //   id: 20,
   //   name: "Pro",
   //   price: null,
   //   accountFeatures: [],

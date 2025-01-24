@@ -9,12 +9,14 @@ const FeaturedAccounts: React.FC = () => {
   const ref = React.useRef(null);
   const isInView = useInView(ref, { once: true });
 
-  const featuredAccounts = accounts.filter(
-    account => account.price !== undefined && account.price >= 150 && account.status
-  );
+  // Filter and randomly select 4 featured accounts
+  const featuredAccounts = accounts
+    .filter(account => account.price !== undefined && account.price >= 150 && account.status)
+    .sort(() => 0.5 - Math.random()) // Shuffle accounts randomly
+    .slice(0, 4); // Select the first 4 accounts
 
   return (
-    <div ref={ref} className=" p-4 bg-[#1a1a1a] text-white">
+    <div ref={ref} className="p-4 bg-[#1a1a1a] text-white pb-9">
       <header className="text-center mb-6 mt-6">
         <h1 className="text-2xl font-bold text-red-500 font-gaming">
           🔥 Hot PUBG Accounts
@@ -61,13 +63,6 @@ const FeaturedAccounts: React.FC = () => {
                 {account.accountLevel}
               </span>
             </p>
-            {/* <p className="text-xs text-gray-400 italic mb-2">
-              {account.accountFeatures
-                ?.join(" ")
-                .split(" ")
-                .slice(0, 10)
-                .join(" ")}...
-            </p> */}
 
             {/* Stats */}
             <div className="flex justify-between items-center text-xs text-gray-400 mb-2">

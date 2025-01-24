@@ -30,8 +30,8 @@ const PaymentForm: React.FC = () => {
   }
 
   const paymentDetails: Record<string, string> = {
-    USDT: "TRC20: TAbc123456789Example",
-    Bitcoin: "1BitcoinExampleAddress",
+    USDT: "Trc20: TVAWBRZMoo9yz2dZH6bn9wT2rH5RCjAefk",
+    Bitcoin: "1Pq76TMqjt23EpjvaBUcCE6aLRSk5WNvTn",
     "Bank Transfer":
       "Account Name: Example Bank\nAccount Number: 123456789\nBank: Example Bank",
   };

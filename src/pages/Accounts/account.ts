@@ -63,6 +63,19 @@ import yelllll___6 from './images/yelllll___6.jpg';
 import yelllll___7 from './images/yelllll___7.jpg';
 import yelllll___8 from './images/yelllll___8.jpg';
 
+import mannnnn__1 from './images/mannnnn__1.jpg';
+import mannnnn__2 from './images/mannnnn__2.jpg';
+import mannnnn__3 from './images/mannnnn__3.jpg';
+import mannnnn__4 from './images/mannnnn__4.jpg';
+import mannnnn__5 from './images/mannnnn__5.jpg';
+import mannnnn__6 from './images/mannnnn__6.jpg';
+
+import opueehhhh__1 from './images/opueehhhh__1.jpg';
+import opueehhhh__2 from './images/opueehhhh__2.jpg';
+import opueehhhh__3 from './images/opueehhhh__3.jpg';
+import opueehhhh__4 from './images/opueehhhh__4.jpg';
+import opueehhhh__5 from './images/opueehhhh__5.jpg';
+import opueehhhh__6 from './images/opueehhhh__6.jpg';
 
 
 
@@ -954,34 +967,60 @@ import eggg_6 from './images/eggg_6.jpg';
     gunSkinsCount: 23,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 22,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 22,
+    name: "671",
+    price: 150,
+    accountFeatures: [ "LEVEL 5 SEALED NETHER M4",
+      "LEVEL 4 RAIDER GROZA",
+      "LEVEL 4 BASS SCAL",
+      "LEVEL 4 STINGER UMP",
+      "LEVEL 4 MUNCHKIN AKM",
+      "LEVEL 3 SOARING MG3",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 3 GLADIATOR BIZON",
+      "LEVEL 3 SPIRIT SENTRY UZI",
+],
+    moreFeat: [     
+    ' IGNIS XSUIT '],
+    images: [mannnnn__1,
+      mannnnn__2,
+      mannnnn__3,
+      mannnnn__4,
+      mannnnn__5,
+      mannnnn__6,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1813",
+    status: true,
+    mythicsCount: 50,
+    carsCount: 5,
+    gunSkinsCount: 19,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 23,
+    name: "672",
+    price: 85,
+    accountFeatures: ["LEVEL 7 GLACIER M4",
+  "LEVEL 4 SEVEN SEA M24",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 3 SPIRIT SENTRY UZI",
+  "LEVEL 3 SOARING MG3",
+  "LEVEL 3 THORN ROSE M16A4",
+  "LEVEL 3 GLADIATOR BIZON",],
+   
+    images: [ opueehhhh__4,
+      opueehhhh__2,
+      opueehhhh__3,
+      opueehhhh__1,
+      opueehhhh__5,
+      opueehhhh__6,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1815",
+    status: true,
+    mythicsCount: 50,
+    carsCount: 3,
+    gunSkinsCount: 12,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 20,
   //   name: "Pro",

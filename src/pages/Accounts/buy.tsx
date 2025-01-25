@@ -30,10 +30,10 @@ const PaymentForm: React.FC = () => {
   }
 
   const paymentDetails: Record<string, string> = {
-    USDT: "Trc20: TVAWBRZMoo9yz2dZH6bn9wT2rH5RCjAefk",
+    USDT_Trc20: "TVAWBRZMoo9yz2dZH6bn9wT2rH5RCjAefk",
     Bitcoin: "1Pq76TMqjt23EpjvaBUcCE6aLRSk5WNvTn",
     "Bank Transfer":
-      "Account Name: Example Bank\nAccount Number: 123456789\nBank: Example Bank",
+      "Account Name: Daniel\nAccount Number: 8167548118\nBank: Opay",
   };
 
   const handlePaymentSelection = (paymentType: string) => {

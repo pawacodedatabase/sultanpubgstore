@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGamepad, FaCrosshairs, FaCarAlt, FaCrown, FaFireAlt } from "react-icons/fa";
+import {  FaCrown, FaFireAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
 
@@ -16,7 +16,8 @@ const FeaturedAccounts: React.FC = () => {
     .slice(0, 4); // Select the first 4 accounts
 
   return (
-    <div ref={ref} className="p-4 bg-[#1a1a1a] text-white pb-9">
+    <div ref={ref} className="p-4 bg-[#1a1a1a] text-white pmythics
+    b-9">
       <header className="text-center mb-6 mt-6">
         <h1 className="text-2xl font-bold text-red-500 font-gaming">
           🔥 Hot PUBG Accounts
@@ -65,7 +66,7 @@ const FeaturedAccounts: React.FC = () => {
             </p>
 
             {/* Stats */}
-            <div className="flex justify-between items-center text-xs text-gray-400 mb-2">
+            {/* <div className="flex justify-between items-center text-xs text-gray-400 mb-2">
               <div className="flex items-center gap-1">
                 <FaGamepad className="text-[#f05454]" size={14} />
                 <span>{account.mythicsCount}+ Mythics</span>
@@ -78,7 +79,7 @@ const FeaturedAccounts: React.FC = () => {
                 <FaCarAlt className="text-[#2ecc71]" size={14} />
                 <span>{account.carsCount}+ Cars</span>
               </div>
-            </div>
+            </div> */}
 
             {/* Price and Availability */}
             <div className="flex items-center justify-between">

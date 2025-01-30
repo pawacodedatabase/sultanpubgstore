@@ -134,15 +134,15 @@ const AccountDetails: React.FC = () => {
               </li>
               <li className="flex items-center gap-2">
                 <FaStar className="text-[#ff7b7b]" />
-                Mythics: <span className="font-bold text-red-500">{account.mythicsCount}+</span>
+                Mythics: <span className="font-bold text-red-500"></span>
               </li>
               <li className="flex items-center gap-2">
                 <FaStar className="text-[#4caf50]" />
-                Gun Labs: <span className="font-bold text-gray-500">{account.gunSkinsCount}+</span>
+                Gun Labs: <span className="font-bold text-gray-500"></span>
               </li>
               <li className="flex items-center gap-2">
                 <FaCar className="text-[#ff5252]" />
-                Cars: <span className="font-bold text-blue-500">{account.carsCount}+</span>
+                Cars: <span className="font-bold text-blue-500"></span>
               </li>
              
             </ul>

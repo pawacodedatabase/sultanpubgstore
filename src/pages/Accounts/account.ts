@@ -77,6 +77,43 @@ import opueehhhh__4 from './images/opueehhhh__4.jpg';
 import opueehhhh__5 from './images/opueehhhh__5.jpg';
 import opueehhhh__6 from './images/opueehhhh__6.jpg';
 
+import eopeoeoe__1 from './images/rabayii_1.jpg';
+import eopeoeoe__2 from './images/rabayii_2.jpg';
+import eopeoeoe__3 from './images/rabayii_3.jpg';
+import eopeoeoe__4 from './images/rabayii_4.jpg';
+import eopeoeoe__5 from './images/rabayii_5.jpg';
+
+import zelll__1 from './images/rabayii_1.jpg';
+import zelll__2 from './images/rabayii_2.jpg';
+import zelll__3 from './images/rabayii_3.jpg';
+import zelll__4 from './images/rabayii_4.jpg';
+import zelll__5 from './images/rabayii_5.jpg';
+import zelll__6 from './images/rabayii_6.jpg';
+
+
+import oppeoom_1 from './images/rabayii_1.jpg';
+import oppeoom_2 from './images/rabayii_2.jpg';
+import oppeoom_3 from './images/rabayii_3.jpg';
+import oppeoom_4 from './images/rabayii_4.jpg';
+import oppeoom_5 from './images/rabayii_5.jpg';
+import oppeoom_6 from './images/rabayii_6.jpg';
+import oppeoom_7 from './images/rabayii_7.jpg';
+
+import ayomadd__1 from './images/rabayii_1.jpg';
+import ayomadd__2 from './images/rabayii_2.jpg';
+import ayomadd__3 from './images/rabayii_3.jpg';
+import ayomadd__4 from './images/rabayii_4.jpg';
+import ayomadd__5 from './images/rabayii_5.jpg';
+import ayomadd__6 from './images/rabayii_6.jpg';
+
+
+import olollll__1 from './images/rabayii_1.jpg';
+import olollll__2 from './images/rabayii_2.jpg';
+import olollll__3 from './images/rabayii_3.jpg';
+import olollll__4 from './images/rabayii_4.jpg';
+import olollll__5 from './images/rabayii_5.jpg';
+import olollll__6 from './images/rabayii_6.jpg';
+import olollll__7 from './images/rabayii_7.jpg';
 
 
 import martt_1 from './images/martt_1.jpg';
@@ -1021,76 +1058,173 @@ import eggg_6 from './images/eggg_6.jpg';
     gunSkinsCount: 12,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 20,
-  //   name: "Pro",
-  //   price: null,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 24,
+    name: "673",
+    price: 1000,
+    accountFeatures: ["🌙 LEVEL 7 TIDAL M4",
+  "LEVEL 7 GLACIER M4",
+  "LEVEL 7 FOOL M4",
+  "LEVEL 7 LIZARD ROAR M4",
+  "LEVEL 7 SEVEN SEA AKM",
+  "LEVEL 7 NEMESIS SCARL",
+  "LEVEL 4 CANDY THOMPSON",
+  "LEVEL 4 AVENGER AWM",
+  "LEVEL 4 TWILIGHT SHOTGUN",
+  "LEVEL 4 PHARAOH M24",
+  "LEVEL 4 JACK O AKM",
+  "LEVEL 5 EVENTIDE GROZA",
+  "LEVEL 4 BASS SCARL",
+  ],
+    moreFeat: ["LEVEL 4 CRUSHER BIZON",
+  "LEVEL 5 EMP UMP",
+  "LEVEL 4 JADE DP",
+  "LEVEL 4 8 BIT BLAST UMP",
+  "LEVEL 4 RIVER STYX GROZA",
+  "LEVEL 5 MOON DROP M249",
+  "LEVEL 5 SUNDER M762",
+  "LEVEL 4 BEAM ACE32",
+  "LEVEL 5 FOLLY CLASP SCARL",
+  "LEVEL 5 DECISIVE AKM",
+
+  '⭐️⭐️⭐️ STYGIAN XSUIT',
+
+  '10 SPORT CARS ',
+  '3 AIR DROPS'],
+    images: [eopeoeoe__1, eopeoeoe__2, eopeoeoe__3, eopeoeoe__4, eopeoeoe__5],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1817",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 25,
+    name: "674",
+    price: 180,
+    accountFeatures: [  "🌙 LEVEL 7 GLACIER M4",
+      "LEVEL 4 FOOL M4",
+      "LEVEL 5 STINGER UMP",
+      "LEVEL 4 LUMINOUS M762",
+      "LEVEL 4 ORIGIN FAMAS",
+      "LEVEL 3 MARINE UMP",
+      "LEVEL 2 SOARING MG3",
+      "LEVEL 2 SEVEN SEA M24",
+    
+      ],
+    moreFeat: [// XSuit Levels
+      "⭐️⭐️⭐️⭐️ GALADRIA XSUIT",
+      "⭐️⭐️ IGNIS XSUIT",
+      "⭐️⭐️ FIORE XSUIT",
+      "⭐️ AVALANCHE XSUIT",
+      "⭐️ POSEIDON XSUIT"],
+    images: [oppeoom_1, oppeoom_2, oppeoom_3, oppeoom_4, oppeoom_5, oppeoom_6, oppeoom_7 ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1819",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 26,
+    name: "675",
+    price: 165,
+    accountFeatures: [ "🌙 LEVEL 5 SILVER GURU M4",
+      "LEVEL 4 SEALED NETHER M4",
+      "LEVEL 4 LIZARD 🦎 ROAR M4",
+      "LEVEL 4 EMP UMP",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 3 SENTY UZI",
+      "LEVEL 2 MARINE UMP",
+      "LEVEL 2 MALICE SCARL",
+    
+     ],
+    moreFeat: [ // Mythic Emblem
+      "MYTHIC EMBLEM 8PCS"],
+    images: [olollll__1, olollll__2, olollll__3, olollll__4, olollll__5, olollll__6, olollll__7],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1821",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 27,
+    name: "676",
+    price: 370,
+    accountFeatures: ["ULTIMATE SET ✅",
+  "INFERNO FIEND SET",
+  "LUMINOUS MUSE SET",
+
+  // Weapons
+  "🌙 LEVEL 7 GLACEIR M4",
+  "LEVEL 7 SEALED NETHER M4",
+  "LEVEL 5 LUMINOUS M763",
+  "LEVEL 4 SEVEN SEA M24",
+  "LEVEL 4 8 BIT M762",
+  "LEVEL 4 SERENE SCARL",
+  "LEVEL 4 GLACIER UZI",
+  "LEVEL 4 BLOOD VECTOR",
+  "LEVEL 4 SEVEN SEA AKM",
+  "LEVEL 4 SOARING MG3",
+  "LEVEL 3 LILAC THOMPSON",
+  "LEVEL 3 GLADIATOR BIZON",
+  "LEVEL 3 DEVIOUS P90",
+
+ ],
+    moreFeat: [ // XSuit Levels
+      "⭐️⭐️⭐️ IGNIS XSUIT",
+      "⭐️ GALADRIA XSUIT",
+    
+      // Vehicles
+      "BENTLEY BENTAYGA AZURE",
+      "BENTLEY BATUR",
+      "SSC TUATARA ROSE"],
+    images: [ayomadd__1, ayomadd__2, ayomadd__3, ayomadd__4, ayomadd__5, ayomadd__6],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1823",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 28,
+    name: "677",
+    price: 250,
+    accountFeatures: [ "🌙 LEVEL 7 GLACIER M4",
+      "LEVEL 4 8 BIT BLAST UMP",
+      "LEVEL 4 FLAME WAVE AWM",
+      "LEVEL 4 NEMESIS SCARL",
+      "LEVEL 4 FOLLY CLASP SCARL",
+      "LEVEL 3 8 BIT M762",
+      "LEVEL 3 TECNO CORE M4",
+      "LEVEL 2 RIVER STYX GROZA",
+      "LEVEL 1 FOOL M4",
+    ],
+    moreFeat: [
+      // XSuit Levels
+      "⭐️⭐️⭐️ SILVANUS XSUIT",
+      "⭐️ GALADRIA XSUIT",
+      "⭐️ IGNIS XSUIT",
+      "⭐️ POSEIDON XSUIT",
+      "⭐️⭐️ FIORE XSUIT",
+    
+      // Vehicles
+      "ROBUST NIGHT CITY UAZ",
+      "GHOST VIOLET DACIA",
+      "JOVIAL TREAD MONSTER TRUCK"],
+    images: [zelll__1, zelll__2, zelll__3, zelll__4, zelll__5, zelll__6],
+    videoLink: "",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 20,
   //   name: "Pro",

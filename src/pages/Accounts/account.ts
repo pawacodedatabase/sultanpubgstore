@@ -77,43 +77,43 @@ import opueehhhh__4 from './images/opueehhhh__4.jpg';
 import opueehhhh__5 from './images/opueehhhh__5.jpg';
 import opueehhhh__6 from './images/opueehhhh__6.jpg';
 
-import eopeoeoe__1 from './images/rabayii_1.jpg';
-import eopeoeoe__2 from './images/rabayii_2.jpg';
-import eopeoeoe__3 from './images/rabayii_3.jpg';
-import eopeoeoe__4 from './images/rabayii_4.jpg';
-import eopeoeoe__5 from './images/rabayii_5.jpg';
+import eopeoeoe__1 from './images/eopeoeoe__1.jpg';
+import eopeoeoe__2 from './images/eopeoeoe__2.jpg';
+import eopeoeoe__3 from './images/eopeoeoe__3.jpg';
+import eopeoeoe__4 from './images/eopeoeoe__4.jpg';
+import eopeoeoe__5 from './images/eopeoeoe__5.jpg';
 
-import zelll__1 from './images/rabayii_1.jpg';
-import zelll__2 from './images/rabayii_2.jpg';
-import zelll__3 from './images/rabayii_3.jpg';
-import zelll__4 from './images/rabayii_4.jpg';
-import zelll__5 from './images/rabayii_5.jpg';
-import zelll__6 from './images/rabayii_6.jpg';
-
-
-import oppeoom_1 from './images/rabayii_1.jpg';
-import oppeoom_2 from './images/rabayii_2.jpg';
-import oppeoom_3 from './images/rabayii_3.jpg';
-import oppeoom_4 from './images/rabayii_4.jpg';
-import oppeoom_5 from './images/rabayii_5.jpg';
-import oppeoom_6 from './images/rabayii_6.jpg';
-import oppeoom_7 from './images/rabayii_7.jpg';
-
-import ayomadd__1 from './images/rabayii_1.jpg';
-import ayomadd__2 from './images/rabayii_2.jpg';
-import ayomadd__3 from './images/rabayii_3.jpg';
-import ayomadd__4 from './images/rabayii_4.jpg';
-import ayomadd__5 from './images/rabayii_5.jpg';
-import ayomadd__6 from './images/rabayii_6.jpg';
+import zelll__1 from './images/zelll__1.jpg';
+import zelll__2 from './images/zelll__2.jpg';
+import zelll__3 from './images/zelll__3.jpg';
+import zelll__4 from './images/zelll__4.jpg';
+import zelll__5 from './images/zelll__5.jpg';
+import zelll__6 from './images/zelll__6.jpg';
 
 
-import olollll__1 from './images/rabayii_1.jpg';
-import olollll__2 from './images/rabayii_2.jpg';
-import olollll__3 from './images/rabayii_3.jpg';
-import olollll__4 from './images/rabayii_4.jpg';
-import olollll__5 from './images/rabayii_5.jpg';
-import olollll__6 from './images/rabayii_6.jpg';
-import olollll__7 from './images/rabayii_7.jpg';
+import oppeoom_1 from './images/oppeoom_1.jpg';
+import oppeoom_2 from './images/oppeoom_2.jpg';
+import oppeoom_3 from './images/oppeoom_3.jpg';
+import oppeoom_4 from './images/oppeoom_4.jpg';
+import oppeoom_5 from './images/oppeoom_5.jpg';
+import oppeoom_6 from './images/oppeoom_6.jpg';
+import oppeoom_7 from './images/oppeoom_7.jpg';
+
+import ayomadd__1 from './images/ayomadd__1.jpg';
+import ayomadd__2 from './images/ayomadd__2.jpg';
+import ayomadd__3 from './images/ayomadd__3.jpg';
+import ayomadd__4 from './images/ayomadd__4.jpg';
+import ayomadd__5 from './images/ayomadd__5.jpg';
+import ayomadd__6 from './images/ayomadd__6.jpg';
+
+
+import olollll__1 from './images/olollll__1.jpg';
+import olollll__2 from './images/olollll__2.jpg';
+import olollll__3 from './images/olollll__3.jpg';
+import olollll__4 from './images/olollll__4.jpg';
+import olollll__5 from './images/olollll__5.jpg';
+import olollll__6 from './images/olollll__6.jpg';
+import olollll__7 from './images/olollll__7.jpg';
 
 
 import martt_1 from './images/martt_1.jpg';
@@ -182,17 +182,17 @@ import shorrtt_4 from './images/shorrtt_4.jpg';
 import shorrtt_5 from './images/shorrtt_5.jpg';
 import shorrtt_6 from './images/shorrtt_6.jpg';
 
-import shenormm_1 from './images/rabayii_1.jpg';
-import shenormm_2 from './images/rabayii_2.jpg';
-import shenormm_3 from './images/rabayii_3.jpg';
-import shenormm_4 from './images/rabayii_4.jpg';
+import shenormm_1 from './images/shenormm_1.jpg';
+import shenormm_2 from './images/shenormm_2.jpg';
+import shenormm_3 from './images/shenormm_3.jpg';
+import shenormm_4 from './images/shenormm_4.jpg';
 
 
-import showww_1 from './images/rabayii_1.jpg';
-import showww_2 from './images/rabayii_2.jpg';
-import showww_3 from './images/rabayii_3.jpg';
-import showww_4 from './images/rabayii_4.jpg';
-import showww_5 from './images/rabayii_5.jpg';
+import showww_1 from './images/showww_1.jpg';
+import showww_2 from './images/showww_2.jpg';
+import showww_3 from './images/showww_3.jpg';
+import showww_4 from './images/showww_4.jpg';
+import showww_5 from './images/showww_5.jpg';
 
 
 import jesstt_1 from './images/jesstt_1.jpg';

@@ -251,6 +251,17 @@ import fagsgs_3 from './images/fagsgs_3.jpg';
 import fagsgs_4 from './images/fagsgs_4.jpg';
 import fagsgs_5 from './images/fagsgs_5.jpg';
 
+import ammamamam_1 from './images/ammamamam_1.jpg';
+import ammamamam_2 from './images/ammamamam_2.jpg';
+import ammamamam_3 from './images/ammamamam_3.jpg';
+import ammamamam_4 from './images/ammamamam_4.jpg';
+
+import oppososp__1 from './images/oppososp__1.jpg';
+import oppososp__2 from './images/oppososp__2.jpg';
+import oppososp__3 from './images/oppososp__3.jpg';
+import oppososp__4 from './images/oppososp__4.jpg';
+import oppososp__5 from './images/oppososp__5.jpg';
+
 
 import glaccierr_1 from './images/glaccierr_1.jpg';
 import glaccierr_2 from './images/glaccierr_2.jpg';
@@ -1325,34 +1336,70 @@ import glaccierr_6 from './images/glaccierr_6.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 32,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 32,
+    name: "679",
+    price: 680,
+    accountFeatures: ["🌙 LEVEL 7 GLACIER M4",
+  "LEVEL 7 GLACIER AKM",
+  "LEVEL 7 ABYSSAL AUG",
+  "LEVEL 5 CRYO UMP",
+  "LEVEL 5 8 BIT M762",
+  "LEVEL 4 PUMPKIN SCARL",
+  "LEVEL 4 ROMANTIC UZI",
+  "LEVEL 4 KILLER TUNE M24",
+  "LEVEL 4 EMP UMP",
+  "LEVEL 4 SOARING MG3",
+  "LEVEL 4 KAMI M4",
+  "LEVEL 4 GLACIER HAMMER UZI",
+  ],
+    moreFeat: ["ROBUST NIGHT CITY UAZ",
+  "MASERATI MC20 (AIRDROP)",
+  "WARP GREEN",
+  "BUGATTI LA VOITURE",
+  "MACLAREN F1 BUGGY (VICTORY)",
+  "⭐️⭐️⭐️⭐️⭐️ JESTER XSUIT",
+  "⭐️⭐️ POSEIDON XSUIT",
+  "⭐️ FIORE XSUIT",
+  "⭐️ SYGIAN XSUIT"],
+    images: [ammamamam_1,
+      ammamamam_2,
+      ammamamam_3,
+      ammamamam_4,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1829",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 33,
+    name: "678",
+    price: 165,
+    accountFeatures: [ "🌙 LEVEL 4 LIZARD ROAR M4",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 4 ETHEREAL UZI",
+      "LEVEL 4 EVENTIDE GROZA",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 3 FORSAKEN AUG",
+      "LEVEL 3 PANTHERA DBS",
+      ],
+    moreFeat: ["HELL FIRE AKM MAX ✅",
+      "BENTLEY FLYING SPUR",
+      "PAGANI IMOLA"],
+    images: [ oppososp__1,
+      oppososp__2,
+      oppososp__3,
+      oppososp__4,
+      oppososp__5,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1827",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

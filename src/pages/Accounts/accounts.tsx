@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaGamepad, FaSearch, FaSnowflake, FaTshirt } from "react-icons/fa";
+import { FaFire, FaCrown, FaCarAlt, FaCrosshairs, FaSearch, FaSnowflake, FaTshirt } from "react-icons/fa";
 
 import { Link } from "react-router-dom"; // Import Link for routing
 import logo from "../../assets/logo.png";
@@ -180,7 +180,7 @@ const Accounts: React.FC = () => {
             </p>
 
             {/* Stats */}
-            <div className="flex justify-between text-sm text-gray-400 mb-5">
+            {/* <div className="flex justify-between text-sm text-gray-400 mb-5">
               <div className="flex items-center gap-1">
                 <FaGamepad className="text-[#f05454]" size={16} /> {account.mythicsCount}+ Mythics
               </div>
@@ -190,7 +190,7 @@ const Accounts: React.FC = () => {
               <div className="flex items-center gap-1">
                 <FaCarAlt className="text-[#2ecc71]" size={16} /> {account.carsCount}+ Cars
               </div>
-            </div>
+            </div> */}
 
             {/* Price & Action */}
             <div className="flex items-center justify-between">

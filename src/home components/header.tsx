@@ -111,6 +111,28 @@ const Header: React.FC = () => {
             transition={{ type: 'spring', stiffness: 300 }}
           >
             <Link
+              to="/new-arrivals"
+              className="text-gray-700 hover:text-red-500 hover:font-bold relative"
+            >
+              Newest Arrivals
+              {/* Underline Effect */}
+              <motion.span
+                className="absolute bottom-0 left-0 h-[2px] w-0 bg-orange-600"
+                whileHover={{ width: '100%' }}
+                initial={{ width: 0 }}
+                animate={{ width: 0 }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
+              />
+            </Link>
+          </motion.div>
+          <motion.div
+            className="relative group"
+            whileHover={{
+              scale: 1.1,
+            }}
+            transition={{ type: 'spring', stiffness: 300 }}
+          >
+            <Link
               to="/sell"
               className="text-gray-700 hover:text-red-500 hover:font-bold relative"
             >
@@ -200,6 +222,29 @@ const Header: React.FC = () => {
               onClick={() => setMenuOpen(false)}
             >
               Sell Your Account
+              <motion.div
+                className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
+                initial={{ scale: 0 }}
+                animate={{ scale: 0 }}
+                whileHover={{ scale: 1.2 }}
+                transition={{ duration: 0.4 }}
+              />
+            </Link>
+            <hr />
+          </motion.div>
+          <motion.div
+            className="relative group"
+            whileHover={{
+              scale: 1.05,
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Link
+              to="/new-arrivals"
+              className="text-gray-700 hover:text-red-500 hover:font-bold"
+              onClick={() => setMenuOpen(false)}
+            >
+              Newest Arrivals
               <motion.div
                 className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
                 initial={{ scale: 0 }}

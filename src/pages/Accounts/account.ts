@@ -305,6 +305,11 @@ import glaccierr_5 from './images/glaccierr_5.jpg';
 import glaccierr_6 from './images/glaccierr_6.jpg';
 
 
+import ganusii_1 from './images/ganusii_1.jpg';
+import ganusii_2 from './images/ganusii_2.jpg';
+import ganusii_3 from './images/ganusii_3.jpg';
+import ganusii_4 from './images/ganusii_4.jpg';
+
   export const accounts: GameAccount[] = [
     {
       id: 1,
@@ -1606,20 +1611,34 @@ import glaccierr_6 from './images/glaccierr_6.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 39,
+    name: "689",
+    price: 200,
+    accountFeatures: [ "LEVEL 7 FOOL M4",
+      "LEVEL 4 BASS SCARL",
+      "LEVEL 4 SPLENDOR M4",
+      "LEVEL 4 ROMATIC UZI",
+      "LEVEL 4 KILLER TUNE M24",
+      "LEVEL 4 CIRUC AUG",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 3 RAIDER GROZA",
+      ],
+    moreFeat: ["HELL FIRE AKM MAX ✅",
+      "ANNIVERSARY UMP MAX ✅",
+      "BUGATTI VEYRON",
+      "🔥LİNKS AVAILABLE🔥"],
+    images: [ganusii_1,
+      ganusii_2,
+      ganusii_3,
+      ganusii_4,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1849",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

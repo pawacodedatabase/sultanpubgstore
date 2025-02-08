@@ -79,7 +79,7 @@ const PaymentForm: React.FC = () => {
 
 
   const sendToTelegram = async () => {
-    const message = `Hello, a payment has been made!\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}`;
+    const message = `Hello, a payment has been made!\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment} \n  \n Account Details: \n Account Name: ${account.name} \n Account Price: ${account.price} \n Account Video: ${account.videoLink} \n Account Link : https://sultanpubgstore.vercel.app/#/account/${account.id}`  ;
   
     const telegramToken = "8084822978:AAEiJAl4Z5wg7BrAn9l1w12y1Vd8l7Y8G7w"; // Replace with your Telegram bot token
     const chatId = "1798696662"; // Replace with your chat ID (can be a group or individual chat)
@@ -107,7 +107,7 @@ const PaymentForm: React.FC = () => {
 
 
   const sendToWhatsApp = () => {
-    const message = `Hello Sultan, I have made a payment.\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment}`;
+    const message = `Hello Sultan, I have made a payment.\n\nName: ${userData.name}\nCountry: ${userData.country}\nWhatsApp: ${userData.whatsapp}\nAmount Paid: ${userData.amountPaid}\nPayment Method: ${selectedPayment} Account Details: \n Account Name: ${account.name} \n Account Price: ${account.price} \n Account Video: ${account.videoLink} \n Account Link : https://sultanpubgstore.vercel.app/#/account/${account.id}`;
     const whatsappLink = `https://wa.me/+2348167548118?text=${encodeURIComponent(
       message
     )}`;

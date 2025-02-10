@@ -290,6 +290,18 @@ import ammamamam_2 from './images/ammamamam_2.jpg';
 import ammamamam_3 from './images/ammamamam_3.jpg';
 import ammamamam_4 from './images/ammamamam_4.jpg';
 
+
+import ilabee__1 from './images/ilabee__1.jpg';
+import ilabee__2 from './images/ilabee__2.jpg';
+import ilabee__3 from './images/ilabee__3.jpg';
+import ilabee__4 from './images/ilabee__4.jpg';
+import ilabee__5 from './images/ilabee__5.jpg';
+import ilabee__6 from './images/ilabee__6.jpg';
+import ilabee__7 from './images/ilabee__7.jpg';
+import ilabee__8 from './images/ilabee__8.jpg';
+
+
+
 import oppososp__1 from './images/oppososp__1.jpg';
 import oppososp__2 from './images/oppososp__2.jpg';
 import oppososp__3 from './images/oppososp__3.jpg';
@@ -1639,34 +1651,58 @@ import ganusii_4 from './images/ganusii_4.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 40,
+    name: "690",
+    price: 100,
+    accountFeatures: [  "LEVEL 7 GLACIER M4",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 4 SEVEN SEA M24",
+      "LEVEL 3 MARINE UMP",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 3 PANTHERA DBS",
+      ],
+    moreFeat: ["GLACIER M4 ATTACHMENT ✅",
+      ".🔥LİNKS AVAILABLE🔥",
+      "EMAIL ❌ SINGLE BIND TWITTER ✅",
+      "LIFE GUARANTEED ✅"],
+    images: [],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1851",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 41,
+    name: "691",
+    price: 140,
+    accountFeatures: [ "LEVEL 6 TIDAL M4",
+      "LEVEL 4 IMMOLATION M4",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 1 KILLER TUNE M24",
+      "LEVEL 1 ABYSS HOWL AUG",
+      "LEVEL 1 CODE BREAKER AKM",
+      "LEVEL 1 JADE DP",
+      "LEVEL 1 GLADIATOR BIZON",
+     ],
+    moreFeat: [ "MACLAREN P1 VOLCANO"],
+    images: [ilabee__1,
+      ilabee__2,
+      ilabee__3,
+      ilabee__4,
+      ilabee__5,
+      ilabee__6,
+      ilabee__7,
+      ilabee__8,],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1853",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

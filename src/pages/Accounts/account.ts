@@ -322,6 +322,30 @@ import ganusii_2 from './images/ganusii_2.jpg';
 import ganusii_3 from './images/ganusii_3.jpg';
 import ganusii_4 from './images/ganusii_4.jpg';
 
+
+import husbbbsan_1 from './images/husbbbsan_1.jpg';
+import husbbbsan_2 from './images/husbbbsan_2.jpg';
+import husbbbsan_3 from './images/husbbbsan_3.jpg';
+import husbbbsan_4 from './images/husbbbsan_4.jpg';
+import husbbbsan_5 from './images/husbbbsan_5.jpg';
+import husbbbsan_6 from './images/husbbbsan_6.jpg';
+import husbbbsan_7 from './images/husbbbsan_7.jpg';
+import husbbbsan_8 from './images/husbbbsan_8.jpg';
+import husbbbsan_9 from './images/husbbbsan_9.jpg';
+import husbbbsan_10 from './images/husbbbsan_10.jpg';
+import husbbbsan_11 from './images/husbbbsan_11.jpg';
+import husbbbsan_12 from './images/husbbbsan_12.jpg';
+import husbbbsan_13 from './images/husbbbsan_13.jpg';
+import husbbbsan_14 from './images/husbbbsan_14.jpg';
+import husbbbsan_15 from './images/husbbbsan_15.jpg';
+import husbbbsan_16 from './images/husbbbsan_16.jpg';
+import husbbbsan_17 from './images/husbbbsan_17.jpg';
+import husbbbsan_18 from './images/husbbbsan_18.jpg';
+import husbbbsan_19 from './images/husbbbsan_19.jpg';
+import husbbbsan_20 from './images/husbbbsan_20.jpg';
+
+
+
   export const accounts: GameAccount[] = [
     {
       id: 1,
@@ -1703,62 +1727,110 @@ import ganusii_4 from './images/ganusii_4.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 42,
+    name: "692",
+    price: 100,
+    accountFeatures: [ "LEVEL 5 GLACEIR M4",
+      "LEVEL 4 8 BIT M762 M4",
+      "LEVEL 4 ETHEREAL UZI",
+      "LEVEL 4 REAPER VECTOR",
+      "LEVEL 4 SKY HUNTRESS MG3",
+      "LEVEL 3 MARINE UMP",
+      "LEVEL 1 MUNCHKIN AKM",
+      "LEVEL 1 TWILIGHT SHOTGUN",
+      ],
+    moreFeat: ["CITY DEFENDER JACKET"],
+    images: [husbbbsan_1,
+      husbbbsan_2,
+      husbbbsan_3,
+      husbbbsan_4,
+      husbbbsan_5,
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1855",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 43,
+    name: "693",
+    price: 30,
+    accountFeatures: ["LEVEL 4 EMP UMP",
+  "LEVEL 3 LILAC THOMPSON",
+  "LEVEL 2 MARINE UMP",
+  "LEVEL 1 ENIGMATIC DP",
+  "LEVEL 1 TWILIGHT SHOTGUN",
+  ],
+    moreFeat: ["KOENIGSEGG JESKO",
+  "URBAN WALKER SHORT"],
+    images: [husbbbsan_6,
+      husbbbsan_7,
+      husbbbsan_8,
+      husbbbsan_9,
+      husbbbsan_10,
+     ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1857",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Ace",
+  },
+  {
+    id: 44,
+    name: "694",
+    price: 50,
+    accountFeatures: ["LEVEL 4 FOOL M4",
+  "LEVEL 3 KILLR TUNE M24",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 2 ETHEREAL UZI",
+  "LEVEL 2 CYBERCAT P90",
+  ],
+    moreFeat: ["LEVEL 2 SKY HUNTRESS MG3",
+  "LEVEL 1 CRYO UMP"],
+    images: [ husbbbsan_11,
+      husbbbsan_12,
+      husbbbsan_13,
+      husbbbsan_14,
+      husbbbsan_15,
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1859",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 45,
+    name: "695",
+    price: 130,
+    accountFeatures: [ "LEVEL 6 GLACIER M4",
+      "LEVEL 4 GLACIER AKM",
+      "LEVEL 4 CRYO UMP",
+      "LEVEL 4 8 BIT M763",
+      "LEVEL 3 GALAXY MK14",
+      "LEVEL 3 PANTHERA DBS",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 3 SENTRY UZI",
+      ],
+    moreFeat: ["IGNIS XSUIT",
+      "POSEIDON XSUIT"],
+    images: [husbbbsan_16,
+      husbbbsan_17,
+      husbbbsan_18,
+      husbbbsan_19,
+      husbbbsan_20],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1861",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

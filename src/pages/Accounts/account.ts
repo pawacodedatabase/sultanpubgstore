@@ -322,6 +322,17 @@ import ganusii_2 from './images/ganusii_2.jpg';
 import ganusii_3 from './images/ganusii_3.jpg';
 import ganusii_4 from './images/ganusii_4.jpg';
 
+import mayeee__1 from './images/mayeee__1.jpg';
+import mayeee__2 from './images/mayeee__2.jpg';
+import mayeee__3 from './images/mayeee__3.jpg';
+import mayeee__4 from './images/mayeee__4.jpg';
+import mayeee__5 from './images/mayeee__5.jpg';
+import mayeee__6 from './images/mayeee__6.jpg';
+import mayeee__7 from './images/mayeee__7.jpg';
+import mayeee__8 from './images/mayeee__8.jpg';
+import mayeee__9 from './images/mayeee__9.jpg';
+import mayeee__10 from './images/mayeee__10.jpg';
+
 
 import husbbbsan_1 from './images/husbbbsan_1.jpg';
 import husbbbsan_2 from './images/husbbbsan_2.jpg';
@@ -1831,34 +1842,72 @@ import husbbbsan_20 from './images/husbbbsan_20.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 46,
+    name: "690",
+    price: 100,
+    accountFeatures: ["LEVEL 7 GLACIER M4",
+  "LEVEL 3 MARINE UMP",
+  "LEVEL 3 SENTRY UZI",
+  "LEVEL 2 ROARING TIGER AKM",
+  "LEVEL 1 MALICE SCARL",
+  "LEVEL 1 KILLER TUNE M24",
+ ],
+    moreFeat: [ "🔥LİNKS AVAILABLE🔥"],
+    images: [  mayeee__1,
+      mayeee__2,
+      mayeee__3,
+      mayeee__4,
+      mayeee__5,
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1863",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 47,
+    name: "691",
+    price: 250,
+    accountFeatures: [ "🔥FIRE ACCOUNT 🔥",
+      "🌙 LEVEL 7 GLACIER M4",
+      "LEVEL 4 NETHER M4",
+      "LEVEL 4 RAIDER GROZA",
+      "LEVEL 4 CODE BREAKER AKM",
+      "LEVEL 4 BASS SCARL",
+      "LEVEL 4 KILLER TUNE M24",
+      "LEVEL 4 CONCERTO M762",
+      "LEVEL 4 TITANIUM KAR98",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 4 STINGER UMP",
+      "LEVEL 4 DECISIVE AKM",
+      "LEVEL 4 ICICLE SPIKE ACE32",
+      "LEVEL 4 SCORCHING AMR",
+      "LEVEL 4 DATA KITTEN DP28",
+      "LEVEL 1 DEVIOUS P90",
+      "LEVEL 1 HUNTRESS MG3",
+     ],
+    moreFeat: [ "⭐⭐⭐ FIORE XSUIT",
+      "⭐ GALADRIA XSUIT",
+      "⭐ IGNIS XSUIT",
+      "⭐ SILVANUS XSUIT",
+      "BUGATTI LA VOITURE",
+      "🔥LİNKS AVAILABLE🔥"],
+    images: [mayeee__6,
+      mayeee__7,
+      mayeee__8,
+      mayeee__9,
+      mayeee__10],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1865",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  
   // {
   //   id: 21,
   //   name: "Pro",

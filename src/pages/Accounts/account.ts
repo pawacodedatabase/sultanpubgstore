@@ -333,6 +333,16 @@ import mayeee__8 from './images/mayeee__8.jpg';
 import mayeee__9 from './images/mayeee__9.jpg';
 import mayeee__10 from './images/mayeee__10.jpg';
 
+import omorrro_1 from './images/omorrro_1.jpg';
+import omorrro_2 from './images/omorrro_2.jpg';
+import omorrro_3 from './images/omorrro_3.jpg';
+import omorrro_4 from './images/omorrro_4.jpg';
+import omorrro_5 from './images/omorrro_5.jpg';
+import omorrro_6 from './images/omorrro_6.jpg';
+import omorrro_7 from './images/omorrro_7.jpg';
+import omorrro_8 from './images/omorrro_8.jpg';
+
+
 
 import husbbbsan_1 from './images/husbbbsan_1.jpg';
 import husbbbsan_2 from './images/husbbbsan_2.jpg';
@@ -1908,34 +1918,106 @@ import husbbbsan_20 from './images/husbbbsan_20.jpg';
     accountLevel: "Conquerer",
   },
   
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 48,
+    name: "692",
+    price: 630,
+    accountFeatures: ["LEVEL 7 GLACIER M4",
+  "LEVEL 7 FOLLY SCARL",
+  "LEVEL 7 CONCERTO M762",
+  "LEVEL 5 ADMIRAL AKM",
+  "LEVEL 4 NETHER M4",
+  "LEVEL 4 CODE BREAKER AKM",
+  "LEVEL 4 BLOOD VECTOR",
+  "LEVEL 4 ETHEREAL UZI",
+  "LEVEL 4 BUTTERFLY M24",
+  "LEVEL 4 DATA KITTEN DP28",
+  "LEVEL 3 KADENCE KAR98",
+  "LEVEL 3 GLADIATOR BIZON",
+  "LEVEL 3 SNOW CAP SKS",
+
+  ],
+    moreFeat: [
+      "ANNIVERSARY UMP MAX ✅",
+    
+      // Xsuits
+      "⭐⭐⭐⭐ AVALANCHE XSUIT",
+      "⭐ IGNIS XSUIT",
+    
+      // Vehicles
+      "BENTLEY BENTAYGA AZURE",
+      "BENTLEY FLYING SPUR",
+      "BENTLEY CONTINENTAL GTC",
+      "ANNIVERSARY MIRADO",
+      "LAMBORGHINI INVENCIBLE (AIRDROP)",
+    
+      // Freebies
+      "FREE RENAME CARD ✅",],
+    images: [omorrro_1, 
+      omorrro_2, 
+      omorrro_3, 
+      omorrro_4, 
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1867",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 49,
+    name: "693",
+    price: 580,
+    accountFeatures: ["OLD SEASON ACCOUNT ✅",
+
+  // Weapons
+  "LEVEL 7 GLACIER M4",
+  "LEVEL 7 SKELENTAL M762",
+  "LEVEL 7 ABYSSAL AUG",
+  "LEVEL 5 JACK LANTERN AKM",
+  "LEVEL 4 MAUVE AWM",
+  "LEVEL 4 CONCERTO M762",
+  "LEVEL 4 DROP BASS SCARL",
+  "LEVEL 4 DAZZLING QBZ",
+  "LEVEL 4 ROMANTIC UZI",
+  "LEVEL 4 KILLER TUNE M24",
+  "LEVEL 3 MID NIGHT VECTOR",
+  "LEVEL 3 CROW VSS",
+
+  // Attachments Unlocked
+  "SKELENTAL M762 ALL ATTACHMENTS UNLOCKED ✅",
+  "ABYSSAL HOWL AUG ALL ATTACHMENTS UNLOCKED ✅",
+
+  // Materials
+  "11 EXTRA MATERIALS ✅",
+
+],
+    moreFeat: [  // Xsuits
+      "⭐⭐ PHAROAH XSUIT",
+      "⭐ BLOOD RAVEN XSUIT",
+    
+      // Vehicles
+      "LAMBORGHINI URUS",
+      "ROBUST NIGHT CITY UAZ",
+      "TESLA ROADSTER",
+      "TESLA CYBER TRUCK",
+      "MC LAREN COUPE",
+      "BUGATTI LA VOITURE",
+    
+      // Links
+      "🔥LİNKS AVAILABLE🔥"],
+    images: [omorrro_5, 
+      omorrro_6, 
+      omorrro_7, 
+      omorrro_8],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1869",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

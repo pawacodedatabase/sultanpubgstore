@@ -342,7 +342,16 @@ import omorrro_6 from './images/omorrro_6.jpg';
 import omorrro_7 from './images/omorrro_7.jpg';
 import omorrro_8 from './images/omorrro_8.jpg';
 
-
+import olorii__1 from './images/olorii__1.jpg';
+import olorii__2 from './images/olorii__2.jpg';
+import olorii__3 from './images/olorii__3.jpg';
+import olorii__4 from './images/olorii__4.jpg';
+import olorii__5 from './images/olorii__5.jpg';
+import olorii__6 from './images/olorii__6.jpg';
+import olorii__7 from './images/olorii__7.jpg';
+import olorii__8 from './images/olorii__8.jpg';
+import olorii__9 from './images/olorii__9.jpg';
+import olorii__10 from './images/olorii__10.jpg';
 
 import husbbbsan_1 from './images/husbbbsan_1.jpg';
 import husbbbsan_2 from './images/husbbbsan_2.jpg';
@@ -2018,34 +2027,90 @@ import husbbbsan_20 from './images/husbbbsan_20.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 50,
+    name: "694",
+    price: 1600,
+    accountFeatures: ["🔥FIRE ACCOUNT 🔥",
+
+  "FIRE MAN SET ✅",
+  "RYAN SET ✅",
+  "BAPE TOP ✅",
+  "WHITE SAILOR SET ✅",
+
+  "LEVEL 7 GLACIER M4",
+  "LEVEL 7 LIZARD ROAR M4",
+  "LEVEL 7 FOOL M4",
+  "LEVEL 7 CYRO UMP",
+  "LEVEL 7 RIVER STYX GROZA",
+  "LEVEL 7 ICICLE SPIKE ACE32",
+  "LEVEL 7 GLACE AUG",
+  "LEVEL 7 AVENGER AWM",
+  "LEVEL 7 BASS SCARL",
+  "LEVEL 7 SEVEN SEA AKM",
+  "LEVEL 5 LUMEN FAMAS",
+  "LEVEL 5 SEVEN SEA M24",
+  "LEVEL 5 CYBER CAT P90",
+  "LEVEL 5 SKY HUNTRESS MG3",
+  "LEVEL 4 ATOMIC S12K",
+  "LEVEL 4 CRIMSON AMR",
+  "LEVEL 4 SOARING MG3",
+  "LEVEL 4 STEAM THOMPSON",
+  "LEVEL 4 CONCERTO M762",
+  "LEVEL 4 ROMANTIC UZI",
+  "LEVEL 4 KULKULKAN KAR98",
+  "LEVEL 4 CHAMELEON BIZON",
+  "LEVEL 4 BLOOD VECTOR",
+],
+    moreFeat: [ "⭐⭐⭐⭐⭐ FIORE XSUIT",
+      "⭐⭐⭐⭐ BLOOD RAVEN",
+      "⭐ IGNIS XSUIT",
+      "⭐ GALADRIA XSUIT",
+    
+      "7 SPORT CARS (1 AIRDROP)",
+      
+  "🔥LİNKS AVAILABLE🔥"
+    ],
+    images: [olorii__1, olorii__2, olorii__3, olorii__4, olorii__5,
+     ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1871",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 51,
+    name: "695",
+    price: 235,
+    accountFeatures: [ "LEVEL 7 GLACIER M4",
+      "LEVEL 7 NETHER M4",
+      "LEVEL 5 BUNNY AKM",
+      "LEVEL 5 RADIANT SCARL",
+      "LEVEL 4 HUNTRESS MG3",
+      "LEVEL 4 BASS SCARL",
+      "LEVEL 4 STINGER UMP",
+      "LEVEL 3 GLADIATOR BIZON",
+    
+      ],
+    moreFeat: ["⭐⭐⭐ GALADRIA XSUIT",
+    
+      "ANNIVERSARY UMP ✅",
+    
+      "ANNIVERSARY MIRADO",
+      "SSC TUATARA",
+      "DODGE HORNET",
+    
+      "🔥LİNKS AVAILABLE🔥"],
+    images: [ olorii__6, olorii__7, olorii__8, olorii__9, olorii__10],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1871",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

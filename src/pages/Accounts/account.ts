@@ -342,6 +342,29 @@ import omorrro_6 from './images/omorrro_6.jpg';
 import omorrro_7 from './images/omorrro_7.jpg';
 import omorrro_8 from './images/omorrro_8.jpg';
 
+import giddeeemm_1 from './images/giddeeemm_1.jpg';
+import giddeeemm_2 from './images/giddeeemm_2.jpg';
+import giddeeemm_3 from './images/giddeeemm_3.jpg';
+import giddeeemm_4 from './images/giddeeemm_4.jpg';
+import giddeeemm_5 from './images/giddeeemm_5.jpg';
+import giddeeemm_6 from './images/giddeeemm_6.jpg';
+import giddeeemm_7 from './images/giddeeemm_7.jpg';
+import giddeeemm_8 from './images/giddeeemm_8.jpg';
+import giddeeemm_9 from './images/giddeeemm_9.jpg';
+import giddeeemm_10 from './images/giddeeemm_10.jpg';
+import giddeeemm_11 from './images/giddeeemm_11.jpg';
+import giddeeemm_12 from './images/giddeeemm_12.jpg';
+import giddeeemm_13 from './images/giddeeemm_13.jpg';
+import giddeeemm_14 from './images/giddeeemm_14.jpg';
+import giddeeemm_15 from './images/giddeeemm_15.jpg';
+import giddeeemm_16 from './images/giddeeemm_16.jpg';
+import giddeeemm_17 from './images/giddeeemm_17.jpg';
+import giddeeemm_18 from './images/giddeeemm_18.jpg';
+import giddeeemm_19 from './images/giddeeemm_19.jpg';
+import giddeeemm_20 from './images/giddeeemm_20.jpg';
+
+
+
 import olorii__1 from './images/olorii__1.jpg';
 import olorii__2 from './images/olorii__2.jpg';
 import olorii__3 from './images/olorii__3.jpg';
@@ -2111,62 +2134,141 @@ import husbbbsan_20 from './images/husbbbsan_20.jpg';
     gunSkinsCount: 15,
     accountLevel: "Conquerer",
   },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
-  // {
-  //   id: 21,
-  //   name: "Pro",
-  //   price: 1,
-  //   accountFeatures: [],
-  //   moreFeat: [],
-  //   images: [],
-  //   videoLink: "",
-  //   status: true,
-  //   mythicsCount: 5,
-  //   carsCount: 5,
-  //   gunSkinsCount: 15,
-  //   accountLevel: "Conquerer",
-  // },
+  {
+    id: 52,
+    name: "696",
+    price: 270,
+    accountFeatures: [  "FIRE ACCOUNT 🔥",
+      "PSYCHOPHAGE SET ✅",
+    
+      "🌙 LEVEL 7 GLACIER M4",
+      "LEVEL 7 LIZARD ROAR M4",
+      "LEVEL 5 CRYO UMP",
+      "LEVEL 4 GLACIER AKM",
+      "LEVEL 4 LUMINA SCARL",
+      "LEVEL 4 SAVAGERY UZI",
+      "LEVEL 4 8 BIT M762",
+      "LEVEL 4 DAZZLING QBZ",
+      "LEVEL 4 EVENTIDE GROZA",
+      "LEVEL 4 EMP UMP",
+      "LEVEL 4 JADE DP",
+      "LEVEL 3 LILAC THOMPSON",
+      "LEVEL 1 HUNTRESS MG3",
+    
+      ],
+    moreFeat: ["⭐⭐ GALADRIA XSUIT",
+      "⭐⭐ FIORE XSUIT",
+      "⭐ IGNIS XSUIT",
+    
+      "ASTON MARTIN VALKYRIE",
+      "DODGE CHARGER SRT",
+    
+      "🔥LİNKS AVAILABLE🔥"],
+    images: [giddeeemm_1, giddeeemm_2, giddeeemm_3, giddeeemm_4, giddeeemm_5,
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1875",
+    status: false,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 53,
+    name: "697",
+    price: 100,
+    accountFeatures: [ "🌙 LEVEL 7 GLACIER M4",
+      "LEVEL 4 8 BIT M763",
+      "LEVEL 3 ETHEREAL UZI",
+      "LEVEL 3 MARINE UMP",
+    ],
+    moreFeat: [ "LEVEL 1 PHARAOH M24",
+      "LEVEL 1 BUNNY AKM"],
+    images: [giddeeemm_6, giddeeemm_7, giddeeemm_8, giddeeemm_9, giddeeemm_10,
+      ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1877",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 54,
+    name: "698",
+    price: 680,
+    accountFeatures: [ "LEVEL 7 GLACIER M4",
+      "LEVEL 7 GLACIER AKM",
+      "LEVEL 7 ABYSSAL AUG",
+      "LEVEL 5 CRYO UMP",
+      "LEVEL 5 8 BIT M762",
+      "LEVEL 4 PUMPKIN SCARL",
+      "LEVEL 4 ROMANTIC UZI",
+      "LEVEL 4 KILLER TUNE M24",
+      "LEVEL 4 EMP UMP",
+      "LEVEL 4 SOARING MG3",
+      "LEVEL 4 KAMI M4",
+      "LEVEL 4 GLACIER HAMMER UZI",
+    
+      ],
+    moreFeat: ["ROBUST NIGHT CITY UAZ",
+      "MASERATI MC20 (AIRDROP)",
+      "WARP GREEN",
+      "BUGATTI LA VOITURE",
+      "MACLAREN F1 BUGGY (VICTORY)",
+    
+      "⭐⭐⭐⭐⭐ JESTER XSUIT",
+      "⭐⭐ POSEIDON XSUIT",
+      "⭐ FIORE XSUIT",
+      "⭐ SYGIAN XSUIT"],
+    images: [giddeeemm_11, giddeeemm_12, giddeeemm_13, giddeeemm_14, giddeeemm_15,
+     ],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1879",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
+  {
+    id: 55,
+    name: "699",
+    price: 700,
+    accountFeatures: ["LEVEL 7 GLACIER M4",
+  "LEVEL 7 SHINOBI M4",
+  "LEVEL 6 FOLLY SCARL",
+  "LEVEL 6 FOOL M4",
+  "LEVEL 4 JADE DP",
+  "LEVEL 4 CODE BREAKER AKM",
+  "LEVEL 4 MOON DROP M249",
+  "LEVEL 4 SPIKE ACE32",
+  "LEVEL 4 SERPENGLEAM AWM",
+  "LEVEL 4 LUMINOUS M762",
+  "ANNIVERSARY UMP MAX ✅",
+  "⭐⭐⭐⭐⭐⭐ AVALANCHE XSUIT",
+  "⭐⭐ FIORE XSUIT",
+  "⭐ IGNIS XSUIT",
+  "⭐⭐ SILVANUS XSUIT",
+  "⭐ POSEIDON XSUIT",
+ ],
+    moreFeat: [ "BENTLEY BENTAYGA",
+      "BENTLEY FLYING SPUR",
+      "BENTLEY CONTINENTAL GTC",
+      "BENTLEY BATUR",
+      "BENTLEY HOLOPRISM (AIRDROP)",
+      "BENTLEY BATUR SOLA PULSE (AIRDROP)",
+      "ANNIVERSARY MIRADO",
+      "WARP GREEN",
+      "SSC TUATARA STRIKER BLUE",
+      "DODGE CHALLENGER SRT"],
+    images: [ giddeeemm_16, giddeeemm_17, giddeeemm_18, giddeeemm_19, giddeeemm_20],
+    videoLink: "https://t.me/Sultan_pubg_acc_Dealerr/1881",
+    status: true,
+    mythicsCount: 5,
+    carsCount: 5,
+    gunSkinsCount: 15,
+    accountLevel: "Conquerer",
+  },
   // {
   //   id: 21,
   //   name: "Pro",

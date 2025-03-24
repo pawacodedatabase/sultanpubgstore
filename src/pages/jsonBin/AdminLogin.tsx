@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import logo from "../../images/banner_7.jpg";
 
 const AdminLogin = () => {
   const [username, setUsername] = useState("");
@@ -8,7 +9,8 @@ const AdminLogin = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    if (username === "sultan" && password === "pass1234") {
+    // Convert input username to lowercase to make login case-insensitive
+    if (username.toLowerCase() === "sultan" && password === "pass1234") {
       sessionStorage.setItem("adminLoggedIn", "true");
       navigate("/admin"); // Redirect to Admin Panel
     } else {
@@ -17,29 +19,39 @@ const AdminLogin = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white">
-      <h2 className="text-2xl font-bold mb-4">Admin Login</h2>
-      {error && <p className="text-red-500">{error}</p>}
-      <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        className="mb-2 p-2 border rounded text-black"
-      />
-      <input
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        className="mb-2 p-2 border rounded text-black"
-      />
-      <button
-        onClick={handleLogin}
-        className="bg-green-500 px-4 py-2 rounded hover:bg-green-600"
-      >
-        Login
-      </button>
+    <div
+      className="relative h-screen flex items-center justify-center bg-cover bg-center"
+      style={{ backgroundImage: `url(${logo})` }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+
+      {/* Login box */}
+      <div className="relative z-10 bg-black bg-opacity-80 p-8 rounded-lg text-center text-white w-96">
+        <h2 className="text-2xl font-bold mb-2">Admin Login</h2>
+        <p className="text-red-400 text-sm mb-4">Only admin can have access to this page</p>
+        {error && <p className="text-red-500">{error}</p>}
+        <input
+          type="text"
+          placeholder="Username"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          className="mb-2 p-2 border rounded text-black w-full"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          className="mb-2 p-2 border rounded text-black w-full"
+        />
+        <button
+          onClick={handleLogin}
+          className="border-2 border-white px-4 py-2 rounded hover:bg-white hover:text-black mb-6 w-full"
+        >
+          Login
+        </button>
+      </div>
     </div>
   );
 };

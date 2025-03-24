@@ -53,7 +53,7 @@ const GameAccountsList = () => {
         {accounts.map((account) => (
           <div
             key={account.id}
-            onClick={() => navigate(`/newaccount/${account.id}`)}
+            onClick={() => navigate(`/accounts/${account.id}`)}
             className="relative border rounded-lg shadow-lg p-6 bg-black cursor-pointer hover:shadow-xl transition"
           >
             {/* Status Banner */}
@@ -100,7 +100,7 @@ const GameAccountsList = () => {
 
 
 
-            <Link to={`/newaccount/${account.id}`}>
+            <Link to={`/accounts/${account.id}`}>
                          <button className="mt-4 w-full bg-[transparent] border hover:bg-[#fff] hover:text-black text-white py-2 rounded-lg text-sm font-bold">
                            View Account
                          </button>

@@ -5,6 +5,8 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import logo from '../assets/SULTAN_logo.gif';
 
+
+const isAdminLoggedIn = sessionStorage.getItem("adminLoggedIn") === "true";
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -23,7 +25,7 @@ const Header: React.FC = () => {
         <div className="flex items-center space-x-4 md:hidden">
           <button
             className="text-[#11120d] hover:text-[#565449] transition"
-            onClick={() => navigate('/store')}
+            onClick={() => navigate('/new-arrivals')}
           >
             <FaShoppingBag size={24} />
           </button>
@@ -303,6 +305,27 @@ const Header: React.FC = () => {
             </Link>
             <hr />
           </motion.div>
+          <motion.div
+      className="relative group"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+    >
+      <Link
+        to={isAdminLoggedIn ? "/admin" : "/login"}
+        className="text-gray-700 hover:text-red-500 hover:font-bold"
+        onClick={() => setMenuOpen(false)}
+      >
+        {isAdminLoggedIn ? "Admin Panel" : "Login"}
+        <motion.div
+          className="absolute inset-0 bg-orange-600 rounded-full scale-0 opacity-20 group-hover:scale-110"
+          initial={{ scale: 0 }}
+          animate={{ scale: 0 }}
+          whileHover={{ scale: 1.2 }}
+          transition={{ duration: 0.4 }}
+        />
+      </Link>
+      <hr />
+    </motion.div>
 
           <button
             className="mt-4 text-gray-700 hover:text-white flex items-center space-x-2 border-2 p-2 border-black hover:bg-black hover:text-[#fff]"

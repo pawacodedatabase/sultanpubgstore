@@ -166,7 +166,7 @@ const AddGameAccountForm = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-xl font-bold mb-4">Add Game Account</h2>
+      <h2 className="text-xl font-bold mb-4">Add  Account</h2>
       <form onSubmit={handleSubmit} className="space-y-3">
         <label htmlFor="name">Account Name</label>
         <input type="text" name="name" placeholder="Account Name" value={formData.name} onChange={handleChange} required className="border p-2 w-full" />
@@ -197,14 +197,15 @@ const AddGameAccountForm = () => {
     <input type="number" name="gunSkinsCount" placeholder="Gun Skins Count" value={formData.gunSkinsCount} onChange={handleChange} className="border p-2 w-full" />
     <br /> <br />
 <label htmlFor=""><span className="text-sm mt-4">Account Level</span></label>
-<p className="text-red-300 text-sm">i.e Ace , Conqueror , Master , Diamond...</p>
+<p className="text-[13px] px-3 text-red-500">i.e Ace , Conqueror , Master , Diamond...</p>
      
         <input type="text" name="accountLevel" placeholder="Account Level" value={formData.accountLevel} onChange={handleChange} className="border p-2 w-full" />
 
         {/* Image Upload */}
 <br /><br />
-        <label htmlFor="">Upload Images </label>
+        <label htmlFor="">Upload Images </label><p className="text-[13px] px-3 text-red-500">Upload one after the other and make sure the image previews before adding account</p>
         <input type="file" multiple accept="image/*" onChange={handleImageUpload} className="border p-2 w-full" />
+
 
         {/* Preview Uploaded Images */}
         <div className="flex flex-wrap gap-2 mt-2">
@@ -224,7 +225,7 @@ const AddGameAccountForm = () => {
           </button>
         </div>
 
-        <button type="submit" className="bg-blue-500 text-white p-2 w-full">Add Account</button>
+        <button type="submit" className="bg-black hover:border-2 hover:border-black hover:text-black hover:bg-white text-white p-2 w-full">Add Account</button>
       </form>
     </div>
   );

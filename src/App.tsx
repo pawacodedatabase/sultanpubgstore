@@ -33,7 +33,7 @@ const App: React.FC = () => {
         <Route path="/new-arrivals" element={<NewArrivals />} />
         <Route path="/confirmation" element={<Confirmation />} />
         <Route path="/account/:id" element={<AccountDetails />} />
-        <Route path="/newaccount/:id" element={<AccountDetail />} />
+        <Route path="/accounts/:id" element={<AccountDetail />} />
         <Route path="/buy/:id" element={<BuyAccount />} />
         <Route path="/login" element={<AdminLogin />} />
         <Route path="/admin" element={<AdminPanel />} />
@@ -54,7 +54,7 @@ const App: React.FC = () => {
           }
         />
         {/* <Route path="/add" element={<AddGameAccountForm />} /> */}
-        <Route path="/display" element={<GameAccountsList />} />
+        <Route path="/accounts" element={<GameAccountsList />} />
         {/* <Route path="/manage" element={<GameAccountManager />} /> */}
         <Route path="/confirmation" element={<ConfirmationPage />} />
         <Route path="/payment/:id" element={<PaymentForm />} />

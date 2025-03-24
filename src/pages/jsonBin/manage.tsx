@@ -109,7 +109,11 @@ const GameAccountManager = () => {
     <div className="p-4">
       <h2 className="text-xl font-bold mb-4"> Accounts List</h2>
 
-      <button className="px-3 py-2 bg-black text-white mb-4 hover:bg-white hover:border-2 hover:border-black hover:text-black"> <Link to={'/add'}>Add new account </Link></button>
+<div className="flex justify-evenly ">
+   <button className="px-3 py-2 bg-black text-white mb-4 hover:bg-white hover:border-2 hover:border-black hover:text-black"> <Link to={'/add'}>Add new account </Link></button>
+      <button className="px-3 py-2 bg-black text-white mb-4 hover:bg-white hover:border-2 hover:border-black hover:text-black"> <Link to={'/accounts'}>View Accounts </Link></button>
+</div>
+     
       
       {editingAccount && (
         <div className="p-4 border mb-4">
@@ -140,9 +144,9 @@ const GameAccountManager = () => {
           <input type="text" name="moreFeat" value={editingAccount.moreFeat.join(", ")} onChange={(e) => handleArrayChange(e, "moreFeat")} className="border p-2 w-full mt-2" />
           
           
-          <br /><br />
+          {/* <br /><br />
           <label htmlFor="">Images </label>
-          <input type="text" name="images" value={editingAccount.images.join(", ")} onChange={(e) => handleArrayChange(e, "images")} className="border p-2 w-full mt-2" />
+          <input type="text" name="images" value={editingAccount.images.join(", ")} onChange={(e) => handleArrayChange(e, "images")} className="border p-2 w-full mt-2" /> */}
           
           <br /><br />
           <label htmlFor="">Mythics</label>

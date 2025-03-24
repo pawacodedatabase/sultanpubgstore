@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface GameAccount {
   id: number;
@@ -19,6 +20,7 @@ const API_URL = "https://api.jsonbin.io/v3/b/67e137188960c979a5776555";
 const MASTER_KEY = "$2a$10$I5TlPdgmFXBQwFjy5lEu0uXHy5oknyPrVX96.BQm8f7LhZjW03X1y"; // Replace with your actual master key
 
 const AddGameAccountForm = () => {
+  const navigate = useNavigate()
   const [accounts, setAccounts] = useState<GameAccount[]>([]);
   const [formData, setFormData] = useState<GameAccount>({
     id: Date.now(),
@@ -56,14 +58,47 @@ const AddGameAccountForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Handle image upload
-  const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      const uploadedImages = Array.from(e.target.files).map((file) => URL.createObjectURL(file));
-      setFormData((prev) => ({ ...prev, images: [...prev.images, ...uploadedImages] }));
+      const files = Array.from(e.target.files);
+      const uploadedImages: string[] = [];
+  
+      for (const file of files) {
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("upload_preset", "sultan"); // Your Cloudinary upload preset
+  
+        try {
+          const response = await fetch("https://api.cloudinary.com/v1_1/dx90y9zdx/image/upload", {
+            method: "POST",
+            body: formData,
+          });
+  
+          if (!response.ok) throw new Error("Failed to upload image");
+  
+          const data = await response.json();
+          
+          if (data.secure_url) {
+            uploadedImages.push(String(data.secure_url)); // Ensure the URL is a string
+          } else {
+            console.error("Upload failed: No URL returned", data);
+          }
+  
+        } catch (error) {
+          console.error("Error uploading image:", error);
+        }
+      }
+  
+      if (uploadedImages.length > 0) {
+        setFormData((prev) => ({ 
+          ...prev, 
+          images: [...prev.images, ...uploadedImages.map(String)] // Ensure all are strings
+        }));
+      }
     }
   };
-
+  
+  
   // Remove an image from the preview
   const removeImage = (index: number) => {
     setFormData((prev) => ({
@@ -85,8 +120,15 @@ const AddGameAccountForm = () => {
   // Submit new account
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const updatedAccounts = [...accounts, formData];
-
+  
+    // Ensure images are submitted as an array of strings
+    const updatedFormData = {
+      ...formData,
+      images: formData.images.map(String), // Make sure all items are strings
+    };
+  
+    const updatedAccounts = [...accounts, updatedFormData];
+  
     try {
       const response = await fetch(API_URL, {
         method: "PUT",
@@ -96,7 +138,7 @@ const AddGameAccountForm = () => {
         },
         body: JSON.stringify(updatedAccounts),
       });
-
+  
       if (response.ok) {
         setAccounts(updatedAccounts);
         setFormData({
@@ -105,7 +147,7 @@ const AddGameAccountForm = () => {
           price: 0,
           accountFeatures: [],
           moreFeat: [],
-          images: [],
+          images: [], // Reset images array after successful submission
           videoLink: "",
           status: true,
           mythicsCount: 0,
@@ -114,11 +156,13 @@ const AddGameAccountForm = () => {
           accountLevel: "",
         });
         alert("Game account added successfully!");
+        navigate("/manage")
       }
     } catch (error) {
       console.error("Error updating JSONBin:", error);
     }
   };
+  
 
   return (
     <div className="p-4">

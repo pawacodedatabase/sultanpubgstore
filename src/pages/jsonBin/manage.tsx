@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 interface GameAccount {
   id: number;
@@ -106,7 +107,9 @@ const GameAccountManager = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-xl font-bold mb-4">Game Accounts List</h2>
+      <h2 className="text-xl font-bold mb-4"> Accounts List</h2>
+
+      <button className="px-3 py-2 bg-black text-white mb-4 hover:bg-white hover:border-2 hover:border-black hover:text-black"> <Link to={'/add'}>Add new account </Link></button>
       
       {editingAccount && (
         <div className="p-4 border mb-4">

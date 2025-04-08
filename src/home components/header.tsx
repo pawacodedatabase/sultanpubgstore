@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { FaShoppingBag } from 'react-icons/fa';
+import { FaShoppingBag, FaUser } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { motion } from 'framer-motion';
 import logo from '../assets/SULTAN_logo.gif';
@@ -9,7 +9,23 @@ import logo from '../assets/SULTAN_logo.gif';
 const isAdminLoggedIn = sessionStorage.getItem("adminLoggedIn") === "true";
 const Header: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+   const [user, setUser] = useState<any>(null);
   const navigate = useNavigate();
+
+
+    useEffect(() => {
+      const loggedUser = localStorage.getItem("loggedUser");
+      if (loggedUser) {
+        const userData = JSON.parse(loggedUser);
+        setUser(userData);
+        
+      } else {
+        // navigate("/userlogin");
+      }
+    }, [navigate]);
+    
+  
+
 
   return (
     <header className="sticky top-0 bg-[#fffbf4] z-50 shadow-md transition-transform duration-500 ease-in-out">
@@ -30,11 +46,21 @@ const Header: React.FC = () => {
             <FaShoppingBag size={24} />
           </button>
           <button
-            className="px-3 py-1 border-2 border-[#11120d] text-000  font-semibold text-sm hover:bg-black hover:text-[#fff] transition"
-            onClick={() => navigate('/sell')}
-          >
-            Sell
-          </button>
+  className="text-[#11120d] hover:text-[#565449] transition"
+  onClick={() => navigate('/profile')}
+>
+  {user && user.profilePicture ? (
+    <img
+      src={user.profilePicture}
+      alt="User"
+      className="w-8 h-8 border-4 border-black rounded-full object-cover"
+    />
+  ) : (
+    <FaUser size={24} />
+  )}
+</button>
+
+         
           <button
             className="flex flex-col space-y-1 focus:outline-none"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -59,6 +85,23 @@ const Header: React.FC = () => {
 
         {/* Navigation Links (Desktop) */}
         <nav className="hidden md:flex space-x-6 px-7">
+
+        <button
+  className="text-[#11120d] hover:text-[#565449] transition"
+  onClick={() => navigate('/profile')}
+>
+  {user && user.profilePicture ? (
+    <img
+      src={user.profilePicture}
+      alt="User"
+      className="w-[50px] h-[50px] rounded-full object-cover "
+    />
+  ) : (
+    <FaUser size={24} />
+  )}
+</button>
+
+
           <motion.div
             className="relative group"
             whileHover={{
@@ -311,7 +354,7 @@ const Header: React.FC = () => {
       whileTap={{ scale: 0.95 }}
     >
       <Link
-        to={isAdminLoggedIn ? "/admin" : "/login"}
+        to={isAdminLoggedIn ? "/admin" : "/userlogin"}
         className="text-gray-700 hover:text-red-500 hover:font-bold"
         onClick={() => setMenuOpen(false)}
       >

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from '../assets/SULTAN_logo.gif'
 import { FaEnvelope, FaTelegram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-[#fffbf4] text-white py-12">
@@ -77,6 +78,12 @@ const Footer: React.FC = () => {
           <p className="text-sm text-gray-500">
             &copy; 2025 Sultan's PUBG Accounts. All rights reserved.
           </p>
+
+          <p className="mt-5 text-sm text-gray-500">Website Created & Designed by <span className="font-semibold"> <Link to="https://wa.me/2348053208997?" target="_blank" rel="noopener noreferrer">
+  @Pawacode
+</Link></span>
+</p>
+
         </div>
       </div>
     </footer>

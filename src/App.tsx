@@ -20,6 +20,9 @@ import AccountDetail from "./pages/jsonBin/accountDetail";
 import AdminPanel from "./pages/jsonBin/Admin";
 import AdminLogin from "./pages/jsonBin/AdminLogin";
 import ProtectedRoute from "./pages/jsonBin/protect";
+import Signup from "./Users/signup";
+import Login from "./Users/login";
+import Profile from "./Users/profile";
 
 const App: React.FC = () => {
   return (
@@ -53,9 +56,10 @@ const App: React.FC = () => {
             </ProtectedRoute>
           }
         />
-        {/* <Route path="/add" element={<AddGameAccountForm />} /> */}
+        <Route path="/signup" element={<Signup />} />
         <Route path="/accounts" element={<GameAccountsList />} />
-        {/* <Route path="/manage" element={<GameAccountManager />} /> */}
+        <Route path="/userlogin" element={<Login />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/confirmation" element={<ConfirmationPage />} />
         <Route path="/payment/:id" element={<PaymentForm />} />
       </Routes>

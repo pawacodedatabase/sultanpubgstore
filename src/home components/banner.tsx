@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import img from '../../src/images/banner_4.jpg';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa'; // Import React icon for the close button
 
 const EmailPopup: React.FC = () => {
   const [isOpen, setIsOpen] = useState(true);
+
+  const [user, setUser] = useState<any>(null);
+  const navigate = useNavigate();
+     useEffect(() => {
+        const loggedUser = localStorage.getItem("loggedUser");
+        if (loggedUser) {
+          const userData = JSON.parse(loggedUser);
+          setUser(userData);
+          
+        } else {
+          // navigate("/userlogin");
+        }
+      }, [navigate]);
+
 
   const closePopup = () => {
     setIsOpen(false);
@@ -36,10 +50,11 @@ const EmailPopup: React.FC = () => {
 
               {/* Text and Call to Action Button on the right */}
               <div className="w-1/2 p-6 flex flex-col justify-center items-center text-center">
-                <h2 className="text-sm font-bold text-gray-800 font-gaming">
-                  Check New Arrivals
-                </h2>
-                <p className="text-gray-600 mt-4 text-sm font-thin ">
+              <h2 className="text-sm font-bold text-gray-800">
+  {user ? `${user.username}, Check New Arrivals` : 'Guest, Check New Arrivals'}
+</h2>
+
+                <p className="text-gray-600 mt-4 text-[10px]  font-semibold ">
                 Discover our latest addition!! Unlock the ultimate gaming experience with a premium PUBG account featuring exclusive skins, mythic outfits, and high-level achievements. Don’t miss out </p>
                 <Link to="/new-arrivals">
                   <button className="mt-6 px-6 py-2 text-sm bg-black text-white hover:bg-white hover:border hover:text-black hover:border-black mb-9">

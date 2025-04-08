@@ -16,13 +16,15 @@ const FeaturedAccounts: React.FC = () => {
     .slice(0, 4); // Select the first 4 accounts
 
   return (
-    <div ref={ref} className="p-4 bg-[#1a1a1a] text-white pmythics
+    <>
+    <section className="min-h-screen h-[800px]">
+      <div ref={ref} className="p-4 bg-[#000] text-white pmythics
     b-9">
       <header className="text-center mb-6 mt-6">
-        <h1 className="text-2xl font-bold text-red-500 font-gaming">
+        <h1 className="text-2xl font-bold text-[#ccc] ">
           🔥 Hot PUBG Accounts
         </h1>
-        <p className="text-sm text-gray-400 mt-3">
+        <p className="text-sm p-5 text-gray-400 mt-3">
           Premium accounts loaded with exclusive skins, mythics, and rare items!
         </p>
         <hr className="border-gray-700 mt-4" />
@@ -100,7 +102,9 @@ const FeaturedAccounts: React.FC = () => {
           </motion.div>
         ))}
       </motion.div>
-    </div>
+    </div> 
+    </section>
+   </>
   );
 };
 

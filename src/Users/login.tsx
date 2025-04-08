@@ -9,25 +9,26 @@ const Login = () => {
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-
+  
     const binId = "67f4ece28561e97a50fae858";
     const apiKey = "$2a$10$M/z2e.cKX1SUsOT62D4pk.gbhiuJhRx0u3VzNAe.DsTPIHHAQE6Zu";
-
+  
     const response = await fetch(`https://api.jsonbin.io/v3/b/${binId}/latest`, {
       headers: {
         "X-Master-Key": apiKey,
       }
     });
-
+  
     const binData = await response.json();
     const users = binData.record.users || [];
-
+  
     const foundUser = users.find(
       (user: any) =>
-        (user.username === identifier || user.email === identifier) &&
+        (user.username.toLowerCase() === identifier.toLowerCase() ||
+          user.email.toLowerCase() === identifier.toLowerCase()) &&
         user.password === password
     );
-
+  
     if (foundUser) {
       localStorage.setItem("loggedUser", JSON.stringify(foundUser));
       alert("Login successful!");
@@ -36,7 +37,7 @@ const Login = () => {
       alert("Invalid credentials. Please try again.");
     }
   };
-
+  
   return (
     <div className="h-screen flex bg-black">
     {/* Left side with image and overlay */}
